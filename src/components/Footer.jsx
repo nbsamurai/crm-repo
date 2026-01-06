@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Linkedin, Globe } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -15,27 +16,27 @@ export default function Footer() {
         <div>
            <h4 className="font-bold text-lg mb-6">Product</h4>
            <ul className="space-y-4 text-gray-300 text-sm">
-             <li className="hover:text-[#4F9CF9] cursor-pointer">Overview</li>
-             <li className="hover:text-[#4F9CF9] cursor-pointer">Pricing</li>
-             <li className="hover:text-[#4F9CF9] cursor-pointer">Customer Stories</li>
+             <li className="hover:text-[#4F9CF9] cursor-pointer transition-colors"><Link to="/">Overview</Link></li>
+             <li className="hover:text-[#4F9CF9] cursor-pointer transition-colors"><Link to="/">Pricing</Link></li>
+             <li className="hover:text-[#4F9CF9] cursor-pointer transition-colors"><Link to="/">Customer Stories</Link></li>
            </ul>
         </div>
 
         <div>
            <h4 className="font-bold text-lg mb-6">Resources</h4>
            <ul className="space-y-4 text-gray-300 text-sm">
-             <li className="hover:text-[#4F9CF9] cursor-pointer">Blog</li>
-             <li className="hover:text-[#4F9CF9] cursor-pointer">Guides</li>
-             <li className="hover:text-[#4F9CF9] cursor-pointer">Help Center</li>
+             <li className="hover:text-[#4F9CF9] cursor-pointer transition-colors"><Link to="/">Blog</Link></li>
+             <li className="hover:text-[#4F9CF9] cursor-pointer transition-colors"><Link to="/">Guides</Link></li>
+             <li className="hover:text-[#4F9CF9] cursor-pointer transition-colors"><Link to="/">Help Center</Link></li>
            </ul>
         </div>
 
         <div>
            <h4 className="font-bold text-lg mb-6">Company</h4>
            <ul className="space-y-4 text-gray-300 text-sm">
-             <li className="hover:text-[#4F9CF9] cursor-pointer">About</li>
-             <li className="hover:text-[#4F9CF9] cursor-pointer">Careers</li>
-             <li className="hover:text-[#4F9CF9] cursor-pointer">Legal</li>
+             <li className="hover:text-[#4F9CF9] cursor-pointer transition-colors"><Link to="/about">About</Link></li>
+             <li className="hover:text-[#4F9CF9] cursor-pointer transition-colors"><Link to="/">Careers</Link></li>
+             <li className="hover:text-[#4F9CF9] cursor-pointer transition-colors"><Link to="/">Legal</Link></li>
            </ul>
         </div>
 
