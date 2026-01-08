@@ -19,7 +19,7 @@ export default function Contact() {
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
               Have questions about features, pricing, integrations, or implementation? Fill out the form and one of our CRM experts will get back to you shortly.
             </p>
-            
+
             <h3 className="font-bold text-white text-xl mb-4">You can contact us for:</h3>
             <ul className="space-y-3 text-gray-300 mb-8 list-disc pl-5">
               <li>Product demos and feature inquiries</li>
@@ -31,38 +31,38 @@ export default function Contact() {
           </div>
 
           <div>
-             <h3 className="font-bold text-white text-xl mb-6">Reach Us Directly</h3>
-             <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="bg-gray-800 p-3 rounded-lg text-[#D946EF]">
-                    <Mail size={24} />
-                  </div>
-                  <div>
-                    <p className="font-bold text-white">Email</p>
-                    <p className="text-gray-400">support@yourcrm.com</p>
-                  </div>
+            <h3 className="font-bold text-white text-xl mb-6">Reach Us Directly</h3>
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="bg-gray-800 p-3 rounded-lg text-[#D946EF]">
+                  <Mail size={24} />
                 </div>
+                <div>
+                  <p className="font-bold text-white">Email</p>
+                  <p className="text-gray-400">support@crivient.com</p>
+                </div>
+              </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="bg-blue-50 p-3 rounded-lg text-[#4F9CF9]">
-                    <Phone size={24} />
-                  </div>
-                  <div>
-                    <p className="font-bold text-white">Phone</p>
-                    <p className="text-gray-400">+1 (000) 123-4567</p>
-                  </div>
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-50 p-3 rounded-lg text-[#4F9CF9]">
+                  <Phone size={24} />
                 </div>
+                <div>
+                  <p className="font-bold text-white">Phone</p>
+                  <p className="text-gray-400"> +91 9251011591</p>
+                </div>
+              </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="bg-blue-50 p-3 rounded-lg text-[#4F9CF9]">
-                    <Clock size={24} />
-                  </div>
-                  <div>
-                    <p className="font-bold text-white">Business Hours</p>
-                    <p className="text-gray-400">Monday – Friday, 9:00 AM – 6:00 PM</p>
-                  </div>
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-50 p-3 rounded-lg text-[#4F9CF9]">
+                  <Clock size={24} />
                 </div>
-             </div>
+                <div>
+                  <p className="font-bold text-white">Business Hours</p>
+                  <p className="text-gray-400">Monday – Friday, 9:00 AM – 6:00 PM</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="bg-[#1F2937] p-8 rounded-xl border border-gray-700">
