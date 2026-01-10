@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-import crm from "../assets/customer-relationship-management-concept.jpg";
+import CRM_business from "../assets/hero-dashboard.jpg";
 import { useNavigate } from "react-router-dom";
 
 
@@ -48,7 +48,7 @@ export default function Hero() {
         >
           <div className="absolute -inset-1 bg-[#D946EF] blur-2xl opacity-20 rounded-full"></div>
           <img
-            src={crm}
+            src={CRM_business}
             alt="CRM Dashboard"
             className="relative rounded-xl shadow-2xl border border-white/10 w-full object-cover transform md:rotate-2 hover:rotate-0 transition-transform duration-500"
           />
