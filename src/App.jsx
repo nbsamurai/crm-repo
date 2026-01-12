@@ -17,6 +17,8 @@ import TermsServices from "./components/TermsServices"
 import RefundPolicy from "./components/RefundPolicy"
 import PrivacyPolicy from "./components/PrivacyPolicy"
 import RequestDemo from "./components/RequestDemo"
+import ScrollToTop from "./components/ScrollToTop";
+import ApplyForm from "./components/ApplyForm";
 
 export default function App() {
   return (
@@ -24,6 +26,7 @@ export default function App() {
       <div className="font-sans min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-grow">
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={
               <>
@@ -45,6 +48,7 @@ export default function App() {
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/request-demo" element={<RequestDemo />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/apply/:plan" element={<ApplyForm />} />
           </Routes>
         </main>
         <Footer />
