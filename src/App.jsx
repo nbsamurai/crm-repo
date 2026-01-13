@@ -20,6 +20,7 @@ import RequestDemo from "./components/RequestDemo"
 import ScrollToTop from "./components/ScrollToTop";
 import ApplyForm from "./components/ApplyForm";
 import Documentation from "./components/Documentation";
+import KnowledgeBase from "./components/KnowledgeBase";
 
 export default function App() {
   return (
@@ -44,6 +45,7 @@ export default function App() {
             <Route path="/overview" element={<Overview />} />
             <Route path="/resources" element={<Resources />} />
             <Route path="/documentation" element={<Documentation />} />
+            <Route path="/knowledge-base" element={<KnowledgeBase />} />
             <Route path="/help-center" element={<HelpCenter />} />
             <Route path="/terms-services" element={<TermsServices />} />
             <Route path="/refund-policy" element={<RefundPolicy />} />

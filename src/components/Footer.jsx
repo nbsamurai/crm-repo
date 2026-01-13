@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="bg-[#020617] text-white pt-20 pb-10 px-6 md:px-10">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 mb-16">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-5 gap-12 mb-16">
 
         <div className="space-y-6">
           <Link to="/" className="text-3xl font-bold">Crivient</Link>
@@ -52,24 +52,6 @@ export default function Footer() {
           </ul>
         </div>
 
-
-
-      </div>
-
-      <div className="max-w-7xl mx-auto pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
-        <div className="flex gap-8 text-sm text-gray-300">
-          <Link to="/terms-services">Terms & Services</Link>
-          <Link to="/refund-policy">Refund Policy</Link>
-          <Link to="/privacy-policy">Privacy Policy</Link>
-        </div>
-
-        <p className="text-sm text-gray-400">© 2026 Crivient LLC.</p>
-
-        <div className="flex gap-6">
-          <Facebook className="hover:text-[#D946EF] cursor-pointer transition-colors" size={20} />
-          <FaXTwitter className="hover:text-[#D946EF] cursor-pointer transition-colors" size={20} />
-          <Linkedin className="hover:text-[#D946EF] cursor-pointer transition-colors" size={20} />
-        </div>
         <div>
           <h4 className="font-bold text-lg mb-6">Contact</h4>
           <ul className="space-y-4 text-gray-300 text-sm">
@@ -95,10 +77,29 @@ export default function Footer() {
               <a
                 className="hover:text-[#D946EF]"
               >
-              476/42 DHAN NADI VIJAY SINGH PATHIK NAGAR AJMER RAJASTHAN 305001
+                476/42 DHAN NADI VIJAY SINGH PATHIK NAGAR AJMER RAJASTHAN 305001
               </a>
             </li>
           </ul>
+        </div>
+
+
+
+      </div>
+
+      <div className="max-w-7xl mx-auto pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="flex gap-8 text-sm text-gray-300">
+          <Link to="/terms-services">Terms & Services</Link>
+          <Link to="/refund-policy">Refund Policy</Link>
+          <Link to="/privacy-policy">Privacy Policy</Link>
+        </div>
+
+        <p className="text-sm text-gray-400">© 2026 Crivient LLC.</p>
+
+        <div className="flex gap-6">
+          <Facebook className="hover:text-[#D946EF] cursor-pointer transition-colors" size={20} />
+          <FaXTwitter className="hover:text-[#D946EF] cursor-pointer transition-colors" size={20} />
+          <Linkedin className="hover:text-[#D946EF] cursor-pointer transition-colors" size={20} />
         </div>
       </div>
     </footer>
