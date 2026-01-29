@@ -1,4 +1,5 @@
 import { CheckCircle } from "lucide-react";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -6,22 +7,43 @@ const plans = [
   {
     name: "Basic",
     price: "$199",
-    description: "Capture ideas and find them quickly",
-    features: ["Sync unlimited devices", "10 GB monthly uploads", "200 MB max. note size", "Customize Home dashboard", "Connect primary Google Calendar", "Add due dates, reminders, and notifications to your tasks"]
+    description: "Your ideas, always within reach.",
+    features: [
+      "Sync unlimited devices",
+      "10 GB monthly uploads",
+      "200 MB max. note size",
+      "Customize Home dashboard",
+      "Connect primary Google Calendar",
+      "Add due dates, reminders, and notifications to your tasks",
+    ],
   },
   {
-    name: "Sandard",
+    name: "Standard",
     price: "$499",
-    description: "Keep home and family on track",
+    description: "The perfect balance of power and simplicity.",
     isPopular: true,
-    features: ["Sync unlimited devices", "10 GB monthly uploads", "200 MB max. note size", "Customize Home dashboard", "Connect primary Google Calendar", "Add due dates, reminders, and notifications to your tasks"]
+    features: [
+      "Sync unlimited devices",
+      "10 GB monthly uploads",
+      "200 MB max. note size",
+      "Customize Home dashboard",
+      "Connect primary Google Calendar",
+      "Add due dates, reminders, and notifications to your tasks",
+    ],
   },
   {
     name: "Organization",
     price: "$999",
-    description: "Capture ideas and find them quickly",
-    features: ["Sync unlimited devices", "10 GB monthly uploads", "200 MB max. note size", "Customize Home dashboard", "Connect primary Google Calendar", "Add due dates, reminders, and notifications to your tasks"]
-  }
+    description: "Gain clear insights into sales performance.",
+    features: [
+      "Sync unlimited devices",
+      "10 GB monthly uploads",
+      "200 MB max. note size",
+      "Customize Home dashboard",
+      "Connect primary Google Calendar",
+      "Add due dates, reminders, and notifications to your tasks",
+    ],
+  },
 ];
 
 export default function Pricing() {
@@ -30,14 +52,14 @@ export default function Pricing() {
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   const item = {
     hidden: { opacity: 0, scale: 0.9 },
-    show: { opacity: 1, scale: 1 }
+    show: { opacity: 1, scale: 1 },
   };
 
   return (
@@ -60,7 +82,8 @@ export default function Pricing() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-gray-300 max-w-2xl mx-auto text-lg"
           >
-            Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Crivient has the right plan for you.
+            Whether you’re organizing work, managing tasks, or improving team
+            productivity, Reliosa has a plan for every workflow.
           </motion.p>
         </div>
 
@@ -77,16 +100,25 @@ export default function Pricing() {
               variants={item}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className={`p-8 rounded-xl border transition-all duration-300 relative flex flex-col ${plan.isPopular
-                ? "bg-[#1F2937] text-white shadow-2xl z-10 border-[#D946EF]"
-                : "bg-[#111827] text-white border-gray-700 hover:shadow-xl"
-                }`}
+              className={`p-8 rounded-xl border transition-all duration-300 relative flex flex-col ${
+                plan.isPopular
+                  ? "bg-[#1F2937] text-white shadow-2xl z-10 border-[#D946EF]"
+                  : "bg-[#111827] text-white border-gray-700 hover:shadow-xl"
+              }`}
             >
               <h4 className="font-semibold text-lg mb-2">{plan.name}</h4>
-              <p className={`text-3xl font-bold mb-4 ${plan.isPopular ? "text-[#D946EF]" : "text-white"}`}>
+              <p
+                className={`text-3xl font-bold mb-4 ${
+                  plan.isPopular ? "text-[#D946EF]" : "text-white"
+                }`}
+              >
                 {plan.price}
               </p>
-              <p className={`mb-8 ${plan.isPopular ? "text-gray-300" : "text-gray-400"}`}>
+              <p
+                className={`mb-8 ${
+                  plan.isPopular ? "text-gray-300" : "text-gray-400"
+                }`}
+              >
                 {plan.description}
               </p>
 
@@ -95,7 +127,9 @@ export default function Pricing() {
                   <li key={i} className="flex items-start gap-3">
                     <CheckCircle
                       size={20}
-                      className={`mt-0.5 flex-shrink-0 ${plan.isPopular ? "text-[#D946EF]" : "text-[#D946EF]"}`}
+                      className={`mt-0.5 flex-shrink-0 ${
+                        plan.isPopular ? "text-[#D946EF]" : "text-[#D946EF]"
+                      }`}
                     />
                     <span className="text-sm">{feature}</span>
                   </li>
@@ -104,10 +138,11 @@ export default function Pricing() {
 
               <Link
                 to={`/apply/${plan.name}`}
-                className={`w-full py-3 rounded-lg font-bold transition-colors inline-block text-center ${plan.isPopular
-                  ? "bg-[#D946EF] text-white hover:bg-[#C026D3]"
-                  : "border border-gray-600 text-white hover:bg-gray-800"
-                  }`}
+                className={`w-full py-3 rounded-lg font-bold transition-colors inline-block text-center ${
+                  plan.isPopular
+                    ? "bg-[#D946EF] text-white hover:bg-[#C026D3]"
+                    : "border border-gray-600 text-white hover:bg-gray-800"
+                }`}
               >
                 Get Started
               </Link>

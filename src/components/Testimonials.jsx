@@ -1,25 +1,29 @@
 import { Quote } from "lucide-react";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    quote: "Crivient has completely transformed how I manage my clients. Can't imagine working without it!",
-    name: "Oberon Shaw",
-    role: "Head of Talent Acquisition, North America",
-    avatar: "https://i.pravatar.cc/150?img=11"
+    quote:
+      "Reliosa cuts the noise and keeps me focused on the deal. My workflow has never been sharper.",
+    name: "Marcus Thorne",
+    role: "Senior Sales Manager",
+    avatar: "https://i.pravatar.cc/150?img=17",
   },
   {
-    quote: "The automation features save me hours every week. It's an indispensable tool for our team.",
-    name: "Oberon Shaw",
-    role: "Head of Design",
-    avatar: "https://i.pravatar.cc/150?img=5"
+    quote:
+      "The automation in Reliosa handles the heavy lifting so I can focus on the big wins. It’s the engine driving our team’s success.",
+    name: "Kiara Martinez",
+    role: "Marketing Specialist",
+    avatar: "https://i.pravatar.cc/150?img=16",
   },
   {
-    quote: "A game changer for our sales pipeline. The visualize tracking is simply the best.",
-    name: "Oberon Shaw",
+    quote:
+      "Reliosa's visual pipeline makes it easy to track where every deal stands. I close more deals than ever before.",
+    name: "James Hargreaves",
     role: "Sales Director",
-    avatar: "https://i.pravatar.cc/150?img=3"
-  }
+    avatar: "https://i.pravatar.cc/150?img=12",
+  },
 ];
 
 export default function Testimonials() {
@@ -28,20 +32,20 @@ export default function Testimonials() {
     show: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2
-      }
-    }
+        staggerChildren: 0.2,
+      },
+    },
   };
 
   const item = {
     hidden: { opacity: 0, y: 30 },
-    show: { opacity: 1, y: 0 }
+    show: { opacity: 1, y: 0 },
   };
 
   return (
     <section className="px-6 py-20 md:py-32 bg-[#030712]">
       <div className="max-w-7xl mx-auto">
-        <motion.h3 
+        <motion.h3
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -50,8 +54,8 @@ export default function Testimonials() {
         >
           What Our Clients Say
         </motion.h3>
-        
-        <motion.div 
+
+        <motion.div
           variants={container}
           initial="hidden"
           whileInView="show"
@@ -59,17 +63,23 @@ export default function Testimonials() {
           className="grid md:grid-cols-3 gap-8"
         >
           {testimonials.map((testimonial, index) => (
-            <motion.div 
-              key={index} 
+            <motion.div
+              key={index}
               variants={item}
               whileHover={{ y: -5 }}
               className="bg-[#1F2937] p-8 rounded-2xl shadow-lg border border-gray-800 flex flex-col hover:shadow-xl transition-all"
             >
               <Quote size={40} className="text-[#D946EF] mb-6" />
-              <p className="text-gray-300 mb-8 text-lg italic leading-relaxed flex-grow">"{testimonial.quote}"</p>
-              
+              <p className="text-gray-300 mb-8 text-lg italic leading-relaxed flex-grow">
+                "{testimonial.quote}"
+              </p>
+
               <div className="flex items-center gap-4 pt-6 border-t border-gray-700">
-                <img src={testimonial.avatar} alt={testimonial.name} className="w-14 h-14 rounded-full object-cover" />
+                <img
+                  src={testimonial.avatar}
+                  alt={testimonial.name}
+                  className="w-14 h-14 rounded-full object-cover"
+                />
                 <div>
                   <h4 className="font-bold text-white">{testimonial.name}</h4>
                   <p className="text-sm text-gray-400">{testimonial.role}</p>

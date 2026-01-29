@@ -8,15 +8,15 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import CustomerStories from "./components/CustomerStories"
-import Products from "./components/Products"
-import Overview from "./components/Overview"
-import Resources from "./components/Resources"
-import HelpCenter from "./components/HelpCenter"
-import TermsServices from "./components/TermsServices"
-import RefundPolicy from "./components/RefundPolicy"
-import PrivacyPolicy from "./components/PrivacyPolicy"
-import RequestDemo from "./components/RequestDemo"
+import CustomerStories from "./components/CustomerStories";
+import Products from "./components/Products";
+import Overview from "./components/Overview";
+import Resources from "./components/Resources";
+import HelpCenter from "./components/HelpCenter";
+import TermsServices from "./components/TermsServices";
+import RefundPolicy from "./components/RefundPolicy";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import RequestDemo from "./components/RequestDemo";
 import ScrollToTop from "./components/ScrollToTop";
 import ApplyForm from "./components/ApplyForm";
 import Documentation from "./components/Documentation";
@@ -27,17 +27,20 @@ export default function App() {
     <Router>
       <div className="font-sans min-h-screen flex flex-col">
         <Navbar />
-        <main className="flex-grow">
+        <main className="grow">
           <ScrollToTop />
           <Routes>
-            <Route path="/" element={
-              <>
-                <Hero />
-                <Features />
-                <Pricing />
-                <Testimonials />
-              </>
-            } />
+            <Route
+              path="/"
+              element={
+                <>
+                  <Hero />
+                  <Features />
+                  <Pricing />
+                  <Testimonials />
+                </>
+              }
+            />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/customer-stories" element={<CustomerStories />} />

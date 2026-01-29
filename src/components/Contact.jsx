@@ -7,7 +7,8 @@ export default function Contact() {
       <section className="bg-[#020617] text-white py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
         <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto">
-          We’d love to hear from you! Whether you have a question, need support, or want to learn how our CRM can help your business grow.
+          Have a question or need support? Want to see how our CRM can help your
+          business grow? We’d love to hear from you.
         </p>
       </section>
 
@@ -17,10 +18,13 @@ export default function Contact() {
           <div>
             <h2 className="text-3xl font-bold text-white mb-6">Get in Touch</h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              Have questions about features, pricing, integrations, or implementation? Fill out the form and one of our CRM experts will get back to you shortly.
+              Curious about features, pricing, integrations, or setup? Fill out
+              the form and a CRM expert will reach out soon.
             </p>
 
-            <h3 className="font-bold text-white text-xl mb-4">You can contact us for:</h3>
+            <h3 className="font-bold text-white text-xl mb-4">
+              You can contact us for:
+            </h3>
             <ul className="space-y-3 text-gray-300 mb-8 list-disc pl-5">
               <li>Product demos and feature inquiries</li>
               <li>Technical support and troubleshooting</li>
@@ -31,7 +35,9 @@ export default function Contact() {
           </div>
 
           <div>
-            <h3 className="font-bold text-white text-xl mb-6">Reach Us Directly</h3>
+            <h3 className="font-bold text-white text-xl mb-6">
+              Reach Us Directly
+            </h3>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="bg-gray-800 p-3 rounded-lg text-[#D946EF]">
@@ -39,7 +45,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-bold text-white">Email</p>
-                  <p className="text-gray-400">support@crivient.com</p>
+                  <p className="text-gray-400">support@Reliosa.com</p>
                 </div>
               </div>
 
@@ -59,16 +65,22 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-bold text-white">Business Hours</p>
-                  <p className="text-gray-400">Monday – Friday, 9:00 AM – 6:00 PM</p>
+                  <p className="text-gray-400">
+                    Monday – Friday, 9:00 AM – 6:00 PM
+                  </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="bg-[#1F2937] p-8 rounded-xl border border-gray-700">
-            <h3 className="font-bold text-white text-lg mb-2">Our Commitment</h3>
+            <h3 className="font-bold text-white text-lg mb-2">
+              Our Commitment
+            </h3>
             <p className="text-gray-300">
-              We aim to respond to all inquiries within 24 hours. Your questions matter to us, and we’re committed to providing fast, reliable, and helpful support.
+              Your questions matter to us. We aim to respond within 24 hours and
+              are committed to delivering fast, reliable, and helpful support
+              every step of the way.
             </p>
           </div>
         </div>
@@ -78,22 +90,42 @@ export default function Contact() {
           <form className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <label className="text-sm font-semibold text-gray-300">First Name</label>
-                <input type="text" className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-800 text-white focus:ring-2 focus:ring-[#D946EF] focus:border-transparent outline-none transition-all" placeholder="Kishan" />
+                <label className="text-sm font-semibold text-gray-300">
+                  First Name
+                </label>
+                <input
+                  type="text"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-800 text-white focus:ring-2 focus:ring-[#D946EF] focus:border-transparent outline-none transition-all"
+                  placeholder="Kishan"
+                />
               </div>
               <div className="space-y-2">
-                <label className="text-sm font-semibold text-gray-300">Last Name</label>
-                <input type="text" className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-800 text-white focus:ring-2 focus:ring-[#D946EF] focus:border-transparent outline-none transition-all" placeholder="Jangid" />
+                <label className="text-sm font-semibold text-gray-300">
+                  Last Name
+                </label>
+                <input
+                  type="text"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-800 text-white focus:ring-2 focus:ring-[#D946EF] focus:border-transparent outline-none transition-all"
+                  placeholder="Jangid"
+                />
               </div>
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm font-semibold text-gray-300">Email Address</label>
-              <input type="email" className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-800 text-white focus:ring-2 focus:ring-[#D946EF] focus:border-transparent outline-none transition-all" placeholder="kishan@company.com" />
+              <label className="text-sm font-semibold text-gray-300">
+                Email Address
+              </label>
+              <input
+                type="email"
+                className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-800 text-white focus:ring-2 focus:ring-[#D946EF] focus:border-transparent outline-none transition-all"
+                placeholder="kishan@company.com"
+              />
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm font-semibold text-gray-300">Subject</label>
+              <label className="text-sm font-semibold text-gray-300">
+                Subject
+              </label>
               <select className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-800 text-white focus:ring-2 focus:ring-[#D946EF] focus:border-transparent outline-none transition-all">
                 <option>General Inquiry</option>
                 <option>Support</option>
@@ -103,11 +135,20 @@ export default function Contact() {
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm font-semibold text-gray-300">Message</label>
-              <textarea rows={5} className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-800 text-white focus:ring-2 focus:ring-[#D946EF] focus:border-transparent outline-none transition-all resize-none" placeholder="How can we help you?"></textarea>
+              <label className="text-sm font-semibold text-gray-300">
+                Message
+              </label>
+              <textarea
+                rows={5}
+                className="w-full px-4 py-3 rounded-lg border border-gray-600 bg-gray-800 text-white focus:ring-2 focus:ring-[#D946EF] focus:border-transparent outline-none transition-all resize-none"
+                placeholder="How can we help you?"
+              ></textarea>
             </div>
 
-            <button type="button" className="w-full bg-[#D946EF] text-white py-4 rounded-lg font-bold text-lg hover:bg-[#C026D3] transition-colors flex items-center justify-center gap-2">
+            <button
+              type="button"
+              className="w-full bg-[#D946EF] text-white py-4 rounded-lg font-bold text-lg hover:bg-[#C026D3] transition-colors flex items-center justify-center gap-2"
+            >
               Send Message <Send size={20} />
             </button>
           </form>
