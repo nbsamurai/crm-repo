@@ -2,25 +2,27 @@ import { FileText } from "lucide-react";
 
 export default function TermsServices() {
   return (
-    <div className="bg-[#111827]">
+    <div className="bg-[#f3f4f6]">
       {/* Header Section */}
-      <section className="bg-[#020617] text-white py-20 px-6 text-center">
+      <section className="bg-[#f3f4f6] text-[#333333] py-20 px-6 text-center">
         <div className="flex justify-center mb-6">
-          <div className="bg-gray-800 p-4 rounded-full">
-            <FileText size={48} className="text-[#D946EF]" />
+          <div className="shadow-lg p-4 rounded-full">
+            <FileText size={48} className="text-[#e05d38]" />
           </div>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Terms of Service
         </h1>
-        <p className="text-xl text-gray-200">Last Updated: January 2, 2026</p>
+        <p className="text-xl text-[#6b7280]">Last Updated: January 2, 2026</p>
       </section>
 
       {/* Main Content */}
-      <section className="py-20 px-6 max-w-4xl mx-auto text-gray-300 leading-relaxed font-sans">
+      <section className="py-20 px-6 max-w-4xl mx-auto text-[#6b7280] leading-relaxed font-sans">
         {/* 1. WHO WE ARE */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">1. WHO WE ARE</h2>
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
+            1. WHO WE ARE
+          </h2>
           <p className="mb-4">
             Reliosa ("Reliosa", "we", "us", "our") operates the Service, which
             is a cloud-based CRM platform available at Reliosa.com.
@@ -31,7 +33,7 @@ export default function TermsServices() {
               Email:{" "}
               <a
                 href="mailto:admin@Reliosa.com"
-                className="text-[#D946EF] hover:underline"
+                className="text-[#e05d38] hover:underline"
               >
                 admin@Reliosa.com
               </a>
@@ -52,11 +54,11 @@ export default function TermsServices() {
 
         {/* 2. ELIGIBILITY AND ACCOUNTS */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             2. ELIGIBILITY AND ACCOUNTS
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             2.1 Business Use Only
           </h3>
           <p className="mb-4">
@@ -64,7 +66,7 @@ export default function TermsServices() {
             professionals, not for personal or household use.
           </p>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             2.2 Account Registration
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -79,7 +81,7 @@ export default function TermsServices() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             2.3 Authorized Users
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -95,15 +97,15 @@ export default function TermsServices() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 3. SERVICE LICENSE AND USE */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             3. SERVICE LICENSE AND USE
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             3.1 License to Use the Service
           </h3>
           <p className="mb-4">
@@ -114,7 +116,7 @@ export default function TermsServices() {
             term.
           </p>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             3.2 Acceptable Use
           </h3>
           <p className="mb-2">You must not:</p>
@@ -144,15 +146,15 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 4. YOUR DATA AND PRIVACY */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             4. YOUR DATA AND PRIVACY
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             4.1 Customer Data
           </h3>
           <p className="mb-4">
@@ -169,7 +171,7 @@ export default function TermsServices() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             4.2 License to Customer Data
           </h3>
           <p className="mb-4">
@@ -179,7 +181,7 @@ export default function TermsServices() {
             to comply with legal obligations.
           </p>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             4.3 Data Protection
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -195,15 +197,15 @@ export default function TermsServices() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 5. SERVICE AVAILABILITY AND SUPPORT */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             5. SERVICE AVAILABILITY AND SUPPORT
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             5.1 Availability
           </h3>
           <p className="mb-4">
@@ -214,7 +216,7 @@ export default function TermsServices() {
             control (for example, network or infrastructure provider issues).
           </p>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             5.2 Modifications to the Service
           </h3>
           <p className="mb-4">
@@ -224,7 +226,7 @@ export default function TermsServices() {
             efforts will be made to notify you in advance where practicable.
           </p>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             5.3 Support
           </h3>
           <p className="mb-4">
@@ -234,15 +236,15 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 6. FEES, PAYMENTS, AND BILLING */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             6. FEES, PAYMENTS, AND BILLING
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             6.1 Subscriptions and Pricing
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -258,7 +260,7 @@ export default function TermsServices() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             6.2 Paddle as Merchant of Record
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -274,7 +276,7 @@ export default function TermsServices() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             6.3 Payment Processing
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -286,7 +288,7 @@ export default function TermsServices() {
                 href="https://paddle.com/legal"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#D946EF] hover:underline"
+                className="text-[#e05d38] hover:underline"
               >
                 paddle.com/legal
               </a>
@@ -299,7 +301,7 @@ export default function TermsServices() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             6.4 Renewals and Cancellation
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -318,7 +320,7 @@ export default function TermsServices() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             6.5 Refunds
           </h3>
           <p className="mb-4">
@@ -328,15 +330,15 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 7. INTELLECTUAL PROPERTY */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             7. INTELLECTUAL PROPERTY
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             7.1 Reliosa IP
           </h3>
           <p className="mb-4">
@@ -347,7 +349,7 @@ export default function TermsServices() {
             you.
           </p>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             7.2 Feedback
           </h3>
           <p className="mb-4">
@@ -358,11 +360,11 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 8. THIRD-PARTY SERVICES */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             8. THIRD-PARTY SERVICES
           </h2>
           <p className="mb-4">
@@ -374,15 +376,15 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 9. SUSPENSION AND TERMINATION */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             9. SUSPENSION AND TERMINATION
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             9.1 Suspension
           </h3>
           <p className="mb-2">
@@ -401,7 +403,7 @@ export default function TermsServices() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             9.2 Termination by You
           </h3>
           <p className="mb-4">
@@ -409,7 +411,7 @@ export default function TermsServices() {
             subscription in accordance with section 6.4.
           </p>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             9.3 Termination by Reliosa
           </h3>
           <p className="mb-2">
@@ -428,7 +430,7 @@ export default function TermsServices() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             9.4 Effects of Termination
           </h3>
           <p className="mb-2">Upon termination:</p>
@@ -442,11 +444,11 @@ export default function TermsServices() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 10. DISCLAIMERS */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             10. DISCLAIMERS
           </h2>
           <p className="mb-4">
@@ -461,11 +463,11 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 11. LIMITATION OF LIABILITY */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             11. LIMITATION OF LIABILITY
           </h2>
           <p className="mb-2">To the maximum extent permitted by law:</p>
@@ -490,11 +492,11 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 12. INDEMNIFICATION */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             12. INDEMNIFICATION
           </h2>
           <p className="mb-2">
@@ -516,11 +518,11 @@ export default function TermsServices() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 13. CHANGES TO THESE TERMS */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             13. CHANGES TO THESE TERMS
           </h2>
           <p className="mb-4">
@@ -536,11 +538,11 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 14. GOVERNING LAW AND DISPUTES */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             14. GOVERNING LAW AND DISPUTES
           </h2>
           <p className="mb-4">
@@ -554,11 +556,11 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 15. MISCELLANEOUS */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             15. MISCELLANEOUS
           </h2>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -585,11 +587,13 @@ export default function TermsServices() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 16. CONTACT */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">16. CONTACT</h2>
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
+            16. CONTACT
+          </h2>
           <p className="mb-2">
             If you have any questions about these Terms, please contact:
           </p>
@@ -599,7 +603,7 @@ export default function TermsServices() {
               Email:{" "}
               <a
                 href="mailto:admin@Reliosa.com"
-                className="text-[#D946EF] hover:underline"
+                className="text-[#e05d38] hover:underline"
               >
                 admin@Reliosa.com
               </a>
@@ -613,9 +617,9 @@ export default function TermsServices() {
       </section>
 
       {/* Footer Note */}
-      <div className="bg-[#111827] text-center py-6 px-6 border-t border-gray-700">
-        <p className="text-gray-400 font-medium">END OF TERMS OF SERVICE</p>
-        <p className="text-gray-400 text-sm mt-2">
+      <div className="bg-[#f3f4f6] text-center py-6 px-6 border-t border-[#dcdfe2]">
+        <p className="text-[#6b7280] font-medium">END OF TERMS OF SERVICE</p>
+        <p className="text-[#6b7280] text-sm mt-2">
           This Terms of Service is effective as of January 2, 2026. Your
           continued use of Reliosa constitutes acceptance of these Terms.
         </p>

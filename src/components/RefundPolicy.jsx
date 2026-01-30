@@ -2,23 +2,25 @@ import { RefreshCcw } from "lucide-react";
 
 export default function RefundPolicy() {
   return (
-    <div className="bg-[#111827]">
+    <div className="bg-[#f3f4f6]">
       {/* Header Section */}
-      <section className="bg-[#020617] text-white py-20 px-6 text-center">
+      <section className="bg-[#f3f4f6] text-[#333333] py-20 px-6 text-center">
         <div className="flex justify-center mb-6">
-          <div className="bg-gray-800 p-4 rounded-full">
-            <RefreshCcw size={48} className="text-[#D946EF]" />
+          <div className="shadow-lg p-4 rounded-full">
+            <RefreshCcw size={48} className="text-[#e05d38]" />
           </div>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold mb-4">Refund Policy</h1>
-        <p className="text-xl text-gray-200">Last Updated: January 2, 2026</p>
+        <p className="text-xl text-[#6b7280]">Last Updated: January 30, 2026</p>
       </section>
 
       {/* Main Content */}
-      <section className="py-20 px-6 max-w-4xl mx-auto text-gray-300 leading-relaxed font-sans">
+      <section className="py-20 px-6 max-w-4xl mx-auto text-[#6b7280] leading-relaxed font-sans">
         {/* 1. OVERVIEW */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">1. OVERVIEW</h2>
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
+            1. OVERVIEW
+          </h2>
           <p className="mb-4">
             This Refund Policy ("Policy") explains Reliosa's refund and return
             practices for subscriptions and purchases made through our website
@@ -33,7 +35,7 @@ export default function RefundPolicy() {
               href="https://www.paddle.com/legal"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#D946EF] hover:underline"
+              className="text-[#e05d38] hover:underline"
             >
               https://www.paddle.com/legal
             </a>{" "}
@@ -41,15 +43,15 @@ export default function RefundPolicy() {
           </p>
         </div>
 
-        <hr className="border-gray-700 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 2. REFUND ELIGIBILITY */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             2. REFUND ELIGIBILITY
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             2.1 Refundable Purchases
           </h3>
           <p className="mb-2">Refunds may be available for:</p>
@@ -61,7 +63,7 @@ export default function RefundPolicy() {
             <li>Add-on services</li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             2.2 Non-Refundable Items
           </h3>
           <p className="mb-2">The following are non-refundable:</p>
@@ -84,11 +86,11 @@ export default function RefundPolicy() {
 
         {/* 3. REFUND TIMELINE */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             3. REFUND TIMELINE
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             3.1 Standard Refund Period
           </h3>
           <p className="font-bold mb-2">30-Day Money-Back Guarantee:</p>
@@ -104,7 +106,7 @@ export default function RefundPolicy() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             3.2 Exceptions to the 30-Day Period
           </h3>
           <p className="mb-2">
@@ -132,7 +134,7 @@ export default function RefundPolicy() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             3.3 Annual Subscriptions
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -156,15 +158,15 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 4. HOW TO REQUEST A REFUND */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             4. HOW TO REQUEST A REFUND
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             4.1 Refund Request Process
           </h3>
           <p className="mb-4">
@@ -173,7 +175,7 @@ export default function RefundPolicy() {
 
           <div className="space-y-6">
             <div>
-              <p className="font-bold text-[#D946EF]">
+              <p className="font-bold text-[#e05d38]">
                 Step 1: Contact Support
               </p>
               <ul className="list-disc pl-6 space-y-1">
@@ -181,7 +183,7 @@ export default function RefundPolicy() {
                   Email:{" "}
                   <a
                     href="mailto:admin@Reliosa.com"
-                    className="text-[#D946EF] hover:underline"
+                    className="text-[#e05d38] hover:underline"
                   >
                     admin@Reliosa.com
                   </a>
@@ -193,7 +195,7 @@ export default function RefundPolicy() {
               </ul>
             </div>
             <div>
-              <p className="font-bold text-[#D946EF]">
+              <p className="font-bold text-[#e05d38]">
                 Step 2: Provide Details
               </p>
               <ul className="list-disc pl-6 space-y-1">
@@ -209,7 +211,7 @@ export default function RefundPolicy() {
               </ul>
             </div>
             <div>
-              <p className="font-bold text-[#D946EF]">Step 3: Await Review</p>
+              <p className="font-bold text-[#e05d38]">Step 3: Await Review</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>
                   Reliosa will review your request within 5-7 business days
@@ -221,7 +223,7 @@ export default function RefundPolicy() {
               </ul>
             </div>
             <div>
-              <p className="font-bold text-[#D946EF]">
+              <p className="font-bold text-[#e05d38]">
                 Step 4: Receive Your Refund
               </p>
               <ul className="list-disc pl-6 space-y-1">
@@ -239,7 +241,7 @@ export default function RefundPolicy() {
             </div>
           </div>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             4.2 Response Timeline
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -263,11 +265,11 @@ export default function RefundPolicy() {
 
         {/* 5. REFUND CONDITIONS AND RESTRICTIONS */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             5. REFUND CONDITIONS AND RESTRICTIONS
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             5.1 General Conditions
           </h3>
           <p className="mb-2">To be eligible for a refund, you must:</p>
@@ -289,7 +291,7 @@ export default function RefundPolicy() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             5.2 Restrictions on Refunds
           </h3>
           <p className="mb-2">Refunds will NOT be issued if:</p>
@@ -318,7 +320,7 @@ export default function RefundPolicy() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             5.3 Data Deletion
           </h3>
           <p className="mb-2">Upon refund approval and processing:</p>
@@ -333,15 +335,15 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 6. SUBSCRIPTION CANCELLATION */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             6. SUBSCRIPTION CANCELLATION
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             6.1 Cancellation Without Refund
           </h3>
           <p className="mb-2">
@@ -365,12 +367,12 @@ export default function RefundPolicy() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             6.2 How to Cancel
           </h3>
           <div className="space-y-4">
             <div>
-              <p className="font-bold text-gray-300">Via Your Account:</p>
+              <p className="font-bold text-[#6b7280]">Via Your Account:</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>Log into your Reliosa account</li>
                 <li>Navigate to Account Settings &gt; Subscription</li>
@@ -379,7 +381,7 @@ export default function RefundPolicy() {
               </ul>
             </div>
             <div>
-              <p className="font-bold text-gray-300">
+              <p className="font-bold text-[#6b7280]">
                 Via Paddle (if Merchant of Record):
               </p>
               <ul className="list-disc pl-6 space-y-1">
@@ -390,13 +392,13 @@ export default function RefundPolicy() {
               </ul>
             </div>
             <div>
-              <p className="font-bold text-gray-300">Via Email:</p>
+              <p className="font-bold text-[#6b7280]">Via Email:</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>
                   Email{" "}
                   <a
                     href="mailto:admin@Reliosa.com"
-                    className="text-[#D946EF] hover:underline"
+                    className="text-[#e05d38] hover:underline"
                   >
                     admin@Reliosa.com
                   </a>
@@ -408,7 +410,7 @@ export default function RefundPolicy() {
             </div>
           </div>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             6.3 Reactivation
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -423,15 +425,15 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 7. PADDLE MERCHANT OF RECORD */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             7. PADDLE MERCHANT OF RECORD
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             7.1 Paddle's Role
           </h3>
           <p className="mb-2">For purchases processed through Paddle:</p>
@@ -451,7 +453,7 @@ export default function RefundPolicy() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             7.2 Paddle Refund Policy
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -464,7 +466,7 @@ export default function RefundPolicy() {
                 href="https://www.paddle.com/legal"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#D946EF] hover:underline"
+                className="text-[#e05d38] hover:underline"
               >
                 https://www.paddle.com/legal
               </a>
@@ -479,7 +481,7 @@ export default function RefundPolicy() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             7.3 Paddle Checkout Disputes
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -493,7 +495,7 @@ export default function RefundPolicy() {
                 href="https://www.paddle.com/support"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#D946EF] hover:underline"
+                className="text-[#e05d38] hover:underline"
               >
                 https://www.paddle.com/support
               </a>
@@ -504,15 +506,15 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 8. CHARGEBACKS AND DISPUTES */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             8. CHARGEBACKS AND DISPUTES
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             8.1 Chargeback Policy
           </h3>
           <p className="mb-2">Reliosa reserves the right to:</p>
@@ -523,7 +525,7 @@ export default function RefundPolicy() {
             <li>Take legal action to recover losses</li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             8.2 Dispute Resolution
           </h3>
           <p className="mb-2">If you dispute a charge:</p>
@@ -532,7 +534,7 @@ export default function RefundPolicy() {
               <strong>Contact Us First:</strong> Email{" "}
               <a
                 href="mailto:admin@Reliosa.com"
-                className="text-[#D946EF] hover:underline"
+                className="text-[#e05d38] hover:underline"
               >
                 admin@Reliosa.com
               </a>{" "}
@@ -558,15 +560,15 @@ export default function RefundPolicy() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 9. SPECIAL CIRCUMSTANCES */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             9. SPECIAL CIRCUMSTANCES
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             9.1 Service Discontinuation
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -584,7 +586,7 @@ export default function RefundPolicy() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             9.2 Service Outages
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -597,7 +599,7 @@ export default function RefundPolicy() {
               Contact support at{" "}
               <a
                 href="mailto:admin@Reliosa.com"
-                className="text-[#D946EF] hover:underline"
+                className="text-[#e05d38] hover:underline"
               >
                 admin@Reliosa.com
               </a>{" "}
@@ -605,7 +607,7 @@ export default function RefundPolicy() {
             </li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             9.3 Significant Service Degradation
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -620,15 +622,15 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 10. CREDIT AND SERVICE CREDITS */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             10. CREDIT AND SERVICE CREDITS
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             10.1 Alternative to Refunds
           </h3>
           <p className="mb-2">Reliosa may offer:</p>
@@ -650,7 +652,7 @@ export default function RefundPolicy() {
             circumstances.
           </p>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             10.2 Credit Usage
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -664,15 +666,15 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 11. TAXES AND FEES */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             11. TAXES AND FEES
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             11.1 Tax-Related Refunds
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -687,7 +689,7 @@ export default function RefundPolicy() {
             <li>Paddle handles all tax collection and remittance</li>
           </ul>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             11.2 Payment Processing Fees
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
@@ -702,15 +704,15 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 12. INTERNATIONAL CUSTOMERS */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             12. INTERNATIONAL CUSTOMERS
           </h2>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             12.1 Regional Refund Rights
           </h3>
           <p className="mb-4">
@@ -718,7 +720,7 @@ export default function RefundPolicy() {
           </p>
           <div className="space-y-4">
             <div>
-              <p className="font-bold text-gray-200">European Union / EEA:</p>
+              <p className="font-bold text-[#6b7280]">European Union / EEA:</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>
                   14-day cooling-off period under EU Consumer Rights Directive
@@ -733,7 +735,7 @@ export default function RefundPolicy() {
               </ul>
             </div>
             <div>
-              <p className="font-bold text-gray-200">United Kingdom:</p>
+              <p className="font-bold text-[#6b7280]">United Kingdom:</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>
                   14-day right to cancel under UK Consumer Contracts Regulations
@@ -744,7 +746,7 @@ export default function RefundPolicy() {
               </ul>
             </div>
             <div>
-              <p className="font-bold text-gray-200">California (USA):</p>
+              <p className="font-bold text-[#6b7280]">California (USA):</p>
               <ul className="list-disc pl-6 space-y-1">
                 <li>
                   Consumers have certain rights under California Consumer
@@ -755,7 +757,7 @@ export default function RefundPolicy() {
             </div>
           </div>
 
-          <h3 className="text-xl font-bold text-white mb-2 mt-6">
+          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             12.2 Applicable Law
           </h3>
           <p className="mb-4">
@@ -765,26 +767,26 @@ export default function RefundPolicy() {
           </p>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 13. FREQUENTLY ASKED QUESTIONS */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-6">
+          <h2 className="text-2xl font-bold text-[#333333] mb-6">
             13. FREQUENTLY ASKED QUESTIONS
           </h2>
 
           <div className="space-y-6">
             <div>
-              <p className="font-bold text-white mb-1">
+              <p className="font-bold text-[#6b7280] mb-1">
                 Q: Can I get a refund after 30 days?
               </p>
-              <p className="text-gray-300">
+              <p className="text-[#6b7280]">
                 A: Generally, no. However, exceptions may apply if there is a
                 service failure, billing error, or regulatory requirement.
                 Contact{" "}
                 <a
                   href="mailto:support@Reliosa.com"
-                  className="text-[#D946EF] hover:underline"
+                  className="text-[#e05d38] hover:underline"
                 >
                   support@Reliosa.com
                 </a>{" "}
@@ -792,53 +794,53 @@ export default function RefundPolicy() {
               </p>
             </div>
             <div>
-              <p className="font-bold text-white mb-1">
+              <p className="font-bold text-[#6b7280] mb-1">
                 Q: Will I get a refund if I cancel my subscription mid-month?
               </p>
-              <p className="text-gray-300">
+              <p className="text-[#6b7280]">
                 A: No. Cancellation applies to future billing periods. You will
                 not receive a refund for the current month's subscription.
               </p>
             </div>
             <div>
-              <p className="font-bold text-white mb-1">
+              <p className="font-bold text-[#6b7280] mb-1">
                 Q: How long does a refund take?
               </p>
-              <p className="text-gray-300">
+              <p className="text-[#6b7280]">
                 A: 10-15 business days after approval. Paddle-processed refunds
                 may take an additional 3-5 business days. Your bank may require
                 3-5 additional days to credit the refund.
               </p>
             </div>
             <div>
-              <p className="font-bold text-white mb-1">
+              <p className="font-bold text-[#6b7280] mb-1">
                 Q: Can I request a refund for a previous month?
               </p>
-              <p className="text-gray-300">
+              <p className="text-[#6b7280]">
                 A: No, unless there is a billing error or exceptional
                 circumstance. Refunds are only available within the 30-day
                 initial period.
               </p>
             </div>
             <div>
-              <p className="font-bold text-white mb-1">
+              <p className="font-bold text-[#6b7280] mb-1">
                 Q: Will my data be deleted if I get a refund?
               </p>
-              <p className="text-gray-300">
+              <p className="text-[#6b7280]">
                 A: Yes. Upon refund approval, your account will be terminated
                 and all data will be deleted within 30 days. Back up important
                 data before requesting a refund.
               </p>
             </div>
             <div>
-              <p className="font-bold text-white mb-1">
+              <p className="font-bold text-[#6b7280] mb-1">
                 Q: What if I don't agree with the refund decision?
               </p>
-              <p className="text-gray-300">
+              <p className="text-[#6b7280]">
                 A: You may appeal the decision by emailing{" "}
                 <a
                   href="mailto:admin@Reliosa.com"
-                  className="text-[#D946EF] hover:underline"
+                  className="text-[#e05d38] hover:underline"
                 >
                   admin@Reliosa.com
                 </a>{" "}
@@ -847,19 +849,19 @@ export default function RefundPolicy() {
               </p>
             </div>
             <div>
-              <p className="font-bold text-white mb-1">
+              <p className="font-bold text-[#6b7280] mb-1">
                 Q: Can I get a refund as a store credit instead?
               </p>
-              <p className="text-gray-300">
+              <p className="text-[#6b7280]">
                 A: Yes, in some cases. We may offer account credits or service
                 extensions as alternatives to cash refunds.
               </p>
             </div>
             <div>
-              <p className="font-bold text-white mb-1">
+              <p className="font-bold text-[#6b7280] mb-1">
                 Q: What happens if I file a chargeback?
               </p>
-              <p className="text-gray-300">
+              <p className="text-[#6b7280]">
                 A: Your account may be suspended or terminated. We recommend
                 contacting us first to resolve billing disputes.
               </p>
@@ -867,11 +869,11 @@ export default function RefundPolicy() {
           </div>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 14. CHANGES TO THIS POLICY */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
             14. CHANGES TO THIS POLICY
           </h2>
           <p className="mb-4">
@@ -890,22 +892,24 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-[#dcdfe2] my-8" />
 
         {/* 15. CONTACT US */}
         <div className="mb-12">
-          <h2 className="text-2xl font-bold text-white mb-4">15. CONTACT US</h2>
+          <h2 className="text-2xl font-bold text-[#333333] mb-4">
+            15. CONTACT US
+          </h2>
           <p className="mb-4">
             If you have questions about this Refund Policy or wish to request a
             refund, please contact:
           </p>
 
-          <div className="bg-[#1F2937] p-6 rounded-lg border border-gray-700">
+          <div className="bg-[#ffffff] p-6 rounded-lg border border-[#dcdfe2]">
             <p className="mb-2">
               <strong>Email:</strong>{" "}
               <a
                 href="mailto:admin@Reliosa.com"
-                className="text-[#D946EF] hover:underline"
+                className="text-[#e05d38] hover:underline"
               >
                 admin@Reliosa.com
               </a>
@@ -921,7 +925,7 @@ export default function RefundPolicy() {
               <br />
               India
             </p>
-            <p className="mt-4 text-sm text-gray-400">
+            <p className="mt-4 text-sm text-[#6b7280]">
               <strong>Response Time:</strong> We will respond to refund requests
               and inquiries within 5-7 business days.
             </p>
@@ -930,9 +934,9 @@ export default function RefundPolicy() {
       </section>
 
       {/* Footer Note */}
-      <div className="bg-[#111827] text-center py-6 px-6 border-t border-gray-700">
-        <p className="text-gray-400 font-medium">END OF REFUND POLICY</p>
-        <p className="text-gray-400 text-sm mt-2">
+      <div className="bg-[#ffffff] text-center py-6 px-6 border-t border-[#dcdfe2]">
+        <p className="text-[#6b7280] font-medium">END OF REFUND POLICY</p>
+        <p className="text-[#6b7280] text-sm mt-2">
           This Refund Policy is effective as of January 2, 2026. Your use of
           Reliosa is subject to this Policy and our Terms of Service.
         </p>

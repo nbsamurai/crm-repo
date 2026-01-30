@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
       {/* Header Section */}
       <section className="bg-[#f3f4f6] text-[#333333] py-20 px-6 text-center">
         <div className="flex justify-center mb-6">
-          <div className="bg-gray-100 p-4 rounded-full">
+          <div className="shadow-lg p-4 rounded-full">
             <Shield size={48} className="text-[#e05d38]" />
           </div>
         </div>
