@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#f3f4f6] text-[#333333] pt-20 pb-10 px-6 md:px-10">
+    <footer
+      className={`bg-[#f3f4f6] text-[#333333] pt-20 pb-10 px-6 md:px-10 border-t border-[#dcdfe2]`}
+    >
       <div className="max-w-7xl mx-auto grid md:grid-cols-5 gap-12 mb-16">
         <div className="space-y-6">
           <Link to="/" className="text-3xl font-bold">

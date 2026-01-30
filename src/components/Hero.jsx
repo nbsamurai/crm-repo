@@ -8,21 +8,21 @@ export default function Hero() {
   const navigate = useNavigate();
 
   return (
-    <section className="bg-[#111827] px-6 py-16 md:py-24 overflow-hidden">
+    <section className="bg-[#f3f4f6] px-6 py-16 md:py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-white text-center md:text-left space-y-6"
+          className="text-[#333333] text-center md:text-left space-y-6"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-            Modern CRM Platform for{" "}
-            <span className="text-[#D946EF]">Scaling Businesses</span>
+            Operational CRM Platform for{" "}
+            <span className="text-[#e05d38]">Scaling Businesses</span>
           </h2>
 
-          <p className="text-gray-200 text-lg md:text-xl leading-relaxed max-w-lg mx-auto md:mx-0">
+          <p className="text-[#6b7280] text-lg md:text-xl leading-relaxed max-w-lg mx-auto md:mx-0">
             A single platform to organize data, close deals faster, and build
             stronger relationships.
           </p>
@@ -31,7 +31,7 @@ export default function Hero() {
             onClick={() => navigate("/pricing")}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-[#D946EF] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#C026D3] transition-all flex items-center gap-2 mx-auto md:mx-0 shadow-lg hover:shadow-xl"
+            className="bg-[#e05d38] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#e05d38e1] transition-all flex items-center gap-2 mx-auto md:mx-0 shadow-lg hover:shadow-xl"
           >
             Try Reliosa <ArrowRight size={20} />
           </motion.button>

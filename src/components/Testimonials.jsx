@@ -43,14 +43,14 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="px-6 py-20 md:py-32 bg-[#030712]">
+    <section className="px-6 py-20 md:py-32 bg-[#f3f4f6]">
       <div className="max-w-7xl mx-auto">
         <motion.h3
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-5xl font-bold mb-16 text-center text-white"
+          className="text-3xl md:text-5xl font-bold mb-16 text-center text-[#333333]"
         >
           What Our Clients Say
         </motion.h3>
@@ -67,10 +67,10 @@ export default function Testimonials() {
               key={index}
               variants={item}
               whileHover={{ y: -5 }}
-              className="bg-[#1F2937] p-8 rounded-2xl shadow-lg border border-gray-800 flex flex-col hover:shadow-xl transition-all"
+              className="bg-[#ffffff] p-8 rounded-2xl shadow-lg border border-[#dcdfe2] flex flex-col hover:shadow-xl transition-all"
             >
-              <Quote size={40} className="text-[#D946EF] mb-6" />
-              <p className="text-gray-300 mb-8 text-lg italic leading-relaxed flex-grow">
+              <Quote size={40} className="text-[#e05d38] mb-6" />
+              <p className="text-[#333333] mb-8 text-lg italic leading-relaxed grow">
                 "{testimonial.quote}"
               </p>
 
@@ -81,8 +81,10 @@ export default function Testimonials() {
                   className="w-14 h-14 rounded-full object-cover"
                 />
                 <div>
-                  <h4 className="font-bold text-white">{testimonial.name}</h4>
-                  <p className="text-sm text-gray-400">{testimonial.role}</p>
+                  <h4 className="font-bold text-[#333333]">
+                    {testimonial.name}
+                  </h4>
+                  <p className="text-sm text-[#6b7280]">{testimonial.role}</p>
                 </div>
               </div>
             </motion.div>

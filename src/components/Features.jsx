@@ -39,7 +39,7 @@ export default function Features() {
   };
 
   return (
-    <section className="px-6 py-20 md:py-32 bg-[#1F2937]">
+    <section className="px-6 py-20 md:py-32 bg-[#f3f4f6]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <motion.h3
@@ -47,7 +47,7 @@ export default function Features() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-3xl md:text-4xl font-bold mb-4 text-white"
+            className="text-3xl md:text-4xl font-bold mb-4 text-[#333333]"
           >
             Powerful Features
           </motion.h3>
@@ -56,7 +56,7 @@ export default function Features() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-gray-300 max-w-2xl mx-auto"
+            className="text-[#6b7280] max-w-2xl mx-auto"
           >
             A complete CRM for managing customer relationships at scale.
           </motion.p>
@@ -74,7 +74,7 @@ export default function Features() {
               key={index}
               variants={item}
               whileHover={{ y: -10 }}
-              className="border border-gray-700 shadow-xl hover:shadow-2xl rounded-2xl transition-all duration-300 bg-[#111827] overflow-hidden group flex flex-col"
+              className="border border-[#dcdfe2] shadow-xl hover:shadow-2xl rounded-2xl transition-all duration-300 bg-[#ffffff] overflow-hidden group flex flex-col"
             >
               <div className="h-48 overflow-hidden">
                 <img
@@ -83,11 +83,11 @@ export default function Features() {
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
-              <div className="p-6 text-center flex flex-col flex-grow">
-                <h4 className="font-bold text-xl mb-2 text-white">
+              <div className="p-6 text-center flex flex-col grow">
+                <h4 className="font-bold text-xl mb-2 text-[#333333]">
                   {feature.title}
                 </h4>
-                <p className="text-gray-400 text-sm leading-relaxed">
+                <p className="text-[#6b7280] text-sm leading-relaxed">
                   {feature.description}
                 </p>
               </div>
