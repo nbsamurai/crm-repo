@@ -41,7 +41,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Toggle */}
         <button
-          className="md:hidden text-white"
+          className="md:hidden text-[#333333]"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -83,7 +83,7 @@ export default function Navbar() {
             className="w-3/4"
             onClick={() => setIsOpen(false)}
           >
-            <button className="bg-[#D946EF] text-white px-6 py-3 rounded-lg font-semibold w-full">
+            <button className="bg-[#e05d38] text-white px-6 py-3 rounded-lg font-semibold w-full">
               Request Demo
             </button>
           </Link>

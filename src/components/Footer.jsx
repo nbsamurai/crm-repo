@@ -112,7 +112,7 @@ export default function Footer() {
           <Link to="/privacy-policy">Privacy Policy</Link>
         </div>
 
-        <p className="text-sm text-gray-400">© 2026 Reliosa LLC.</p>
+        <p className="text-sm text-[#6b7280]">© 2026 Reliosa LLC.</p>
 
         <div className="flex gap-6">
           <Facebook
