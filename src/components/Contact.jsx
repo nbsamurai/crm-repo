@@ -7,8 +7,8 @@ export default function Contact() {
       <section className="bg-[#020617] text-white py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
         <p className="text-xl md:text-2xl text-gray-200 max-w-2xl mx-auto">
-          Have a question or need support? Want to see how our CRM can help your
-          business grow? We’d love to hear from you.
+          Whether you have a question, need support, or want to learn how our
+          CRM can boost your business, we’d love to hear from you.
         </p>
       </section>
 
