@@ -141,7 +141,7 @@ export default function Pricing() {
                 className={`w-full py-3 rounded-lg font-bold transition-colors inline-block text-center ${
                   plan.isPopular
                     ? "bg-[#e05d38] text-white hover:bg-[#e05d38e1]"
-                    : "border border-[#dcdfe2] text-[#333333] hover:bg-[#e05d38e1]"
+                    : "border border-[#dcdfe2] text-[#333333] hover:bg-[#e05d38e1] hover:text-[#ffffff]"
                 }`}
               >
                 Get Started
