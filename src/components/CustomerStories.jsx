@@ -227,7 +227,7 @@ export default function CustomerStories() {
                 <Briefcase className="text-[#e05d38]" /> Why Choose Reliosa?
               </h2>
               <div className="grid grid-cols-1 gap-6">
-                <div className="bg-white/10 p-4 rounded-lg">
+                <div className="bg-white/10 p-4 rounded-lg shadow-md border border-[#dcdfe2]">
                   <h3 className="font-bold text-[#e05d38] mb-1">
                     Intuitive & Easy
                   </h3>
@@ -235,7 +235,7 @@ export default function CustomerStories() {
                     Easy to learn and use
                   </p>
                 </div>
-                <div className="bg-white/10 p-4 rounded-lg">
+                <div className="bg-white/10 p-4 rounded-lg shadow-md border border-[#dcdfe2]">
                   <h3 className="font-bold text-[#e05d38] mb-1">
                     Customizable
                   </h3>
@@ -243,13 +243,13 @@ export default function CustomerStories() {
                     Tailor the CRM to your workflow
                   </p>
                 </div>
-                <div className="bg-white/10 p-4 rounded-lg">
+                <div className="bg-white/10 p-4 rounded-lg shadow-md border border-[#dcdfe2]">
                   <h3 className="font-bold text-[#e05d38] mb-1">Data-Driven</h3>
                   <p className="text-sm text-[#6b7280]">
                     Convert data into actionable insights
                   </p>
                 </div>
-                <div className="bg-white/10 p-4 rounded-lg">
+                <div className="bg-white/10 p-4 rounded-lg shadow-md border border-[#dcdfe2]">
                   <h3 className="font-bold text-[#e05d38] mb-1">Cloud-Based</h3>
                   <p className="text-sm text-[#6b7280]">
                     Work from anywhere, anytime
