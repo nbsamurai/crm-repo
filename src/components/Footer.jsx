@@ -4,25 +4,25 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#020617] text-white pt-20 pb-10 px-6 md:px-10">
+    <footer className="bg-[#f3f4f6] text-[#333333] pt-20 pb-10 px-6 md:px-10">
       <div className="max-w-7xl mx-auto grid md:grid-cols-5 gap-12 mb-16">
         <div className="space-y-6">
           <Link to="/" className="text-3xl font-bold">
             Reliosa
           </Link>
           {/* <h1 className="text-3xl font-bold">Reliosa</h1> */}
-          <p className="text-gray-300 leading-relaxed text-sm mt-4">
+          <p className="text-[#6b7280] leading-relaxed text-sm mt-4">
             Built for teams that sell smarter and grow faster.
           </p>
         </div>
 
         <div>
           <h4 className="font-bold text-lg mb-6">Product</h4>
-          <ul className="space-y-4 text-gray-300 text-sm">
+          <ul className="space-y-4 text-[#6b7280] text-sm">
             <li>
               <Link
                 to="/products"
-                className="hover:text-[#D946EF] cursor-pointer"
+                className="hover:text-[#e05d38] cursor-pointer"
               >
                 Products
               </Link>
@@ -30,7 +30,7 @@ export default function Footer() {
             <li>
               <Link
                 to="/overview"
-                className="hover:text-[#D946EF] cursor-pointer"
+                className="hover:text-[#e05d38] cursor-pointer"
               >
                 Overview
               </Link>
@@ -38,7 +38,7 @@ export default function Footer() {
             <li>
               <Link
                 to="/pricing"
-                className="hover:text-[#D946EF] cursor-pointer"
+                className="hover:text-[#e05d38] cursor-pointer"
               >
                 Pricing
               </Link>
@@ -46,7 +46,7 @@ export default function Footer() {
             <li>
               <Link
                 to="/customer-stories"
-                className="hover:text-[#D946EF] cursor-pointer"
+                className="hover:text-[#e05d38] cursor-pointer"
               >
                 Customer stories
               </Link>
@@ -56,11 +56,11 @@ export default function Footer() {
 
         <div>
           <h4 className="font-bold text-lg mb-6">Resources</h4>
-          <ul className="space-y-4 text-gray-300 text-sm">
+          <ul className="space-y-4 text-[#6b7280] text-sm">
             <li>
               <Link
                 to="/help-center"
-                className="hover:text-[#D946EF] cursor-pointer"
+                className="hover:text-[#e05d38] cursor-pointer"
               >
                 Help Center
               </Link>
@@ -70,9 +70,9 @@ export default function Footer() {
 
         <div>
           <h4 className="font-bold text-lg mb-6">Company</h4>
-          <ul className="space-y-4 text-gray-300 text-sm">
+          <ul className="space-y-4 text-[#6b7280] text-sm">
             <li>
-              <Link to="/about" className="hover:text-[#D946EF] cursor-pointer">
+              <Link to="/about" className="hover:text-[#e05d38] cursor-pointer">
                 About
               </Link>
             </li>
@@ -81,23 +81,23 @@ export default function Footer() {
 
         <div>
           <h4 className="font-bold text-lg mb-6">Contact</h4>
-          <ul className="space-y-4 text-gray-300 text-sm">
+          <ul className="space-y-4 text-[#6b7280] text-sm">
             <li>
-              <span className="block text-gray-400">Email</span>
+              <span className="block text-[#393838]">Email</span>
               <a
                 href="mailto:support@Reliosa.com"
-                className="hover:text-[#D946EF]"
+                className="hover:text-[#e05d38]"
               >
                 support@Reliosa.com
               </a>
             </li>
             <li>
-              <span className="block text-gray-400">Phone</span>
-              <a className="hover:text-[#D946EF]">+91 9251011591</a>
+              <span className="block text-[#393838]">Phone</span>
+              <a className="hover:text-[#e05d38]">+91 9251011591</a>
             </li>
             <li>
-              <span className="block text-gray-400">ADDRESS</span>
-              <a className="hover:text-[#D946EF]">
+              <span className="block text-[#393838]">ADDRESS</span>
+              <a className="hover:text-[#e05d38]">
                 476/42 DHAN NADI VIJAY SINGH PATHIK NAGAR AJMER RAJASTHAN 305001
               </a>
             </li>
@@ -106,7 +106,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
-        <div className="flex gap-8 text-sm text-gray-300">
+        <div className="flex gap-8 text-sm text-[#6b7280]">
           <Link to="/terms-services">Terms & Services</Link>
           <Link to="/refund-policy">Refund Policy</Link>
           <Link to="/privacy-policy">Privacy Policy</Link>
@@ -116,15 +116,15 @@ export default function Footer() {
 
         <div className="flex gap-6">
           <Facebook
-            className="hover:text-[#D946EF] cursor-pointer transition-colors"
+            className="hover:text-[#e05d38] cursor-pointer transition-colors"
             size={20}
           />
           <FaXTwitter
-            className="hover:text-[#D946EF] cursor-pointer transition-colors"
+            className="hover:text-[#e05d38] cursor-pointer transition-colors"
             size={20}
           />
           <Linkedin
-            className="hover:text-[#D946EF] cursor-pointer transition-colors"
+            className="hover:text-[#e05d38] cursor-pointer transition-colors"
             size={20}
           />
         </div>
