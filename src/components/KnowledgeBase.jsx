@@ -13,7 +13,7 @@ import {
 export default function KnowledgeBase() {
   const cards = [
     {
-      icon: <BookOpen className="text-[#D946EF]" size={32} />,
+      icon: <BookOpen className="text-[#e05d38]" size={32} />,
       title: "Knowledge Base Overview",
       content: [
         "A Customer Relationship Management (CRM) system is more than just software—it’s a strategic approach to managing interactions with current and potential customers. A knowledge base bridges the gap between technical functionality and business strategy, helping teams understand how to use the CRM effectively.",
@@ -22,7 +22,7 @@ export default function KnowledgeBase() {
       ],
     },
     {
-      icon: <Rocket className="text-[#D946EF]" size={32} />,
+      icon: <Rocket className="text-[#e05d38]" size={32} />,
       title: "Getting Started",
       content: [
         "Successfully adopting a CRM starts with a clear understanding of its structure and core components. Central to this is the concept of a single source of truth, where all customer data is stored in one centralized location. Configuring user roles and permissions is a critical first step in setting up the system.",
@@ -31,7 +31,7 @@ export default function KnowledgeBase() {
       ],
     },
     {
-      icon: <Users className="text-[#D946EF]" size={32} />,
+      icon: <Users className="text-[#e05d38]" size={32} />,
       title: "Sales & Customer Management",
       content: [
         "Effective CRM use centers on managing the sales pipeline and customer relationships. Lead management includes qualification, scoring, and segmentation, helping sales teams focus on the most promising opportunities.",
@@ -40,7 +40,7 @@ export default function KnowledgeBase() {
       ],
     },
     {
-      icon: <Zap className="text-[#D946EF]" size={32} />,
+      icon: <Zap className="text-[#e05d38]" size={32} />,
       title: "Automation & Integrations",
       content: [
         "Workflow automation is a powerful feature that eliminates manual effort from daily operations. By automating repetitive tasks—such as data entry, email follow-ups, and task assignments—teams can save time and focus on strategy and relationship building.",
@@ -49,7 +49,7 @@ export default function KnowledgeBase() {
       ],
     },
     {
-      icon: <BarChart2 className="text-[#D946EF]" size={32} />,
+      icon: <BarChart2 className="text-[#e05d38]" size={32} />,
       title: "Advanced Features",
       content: [
         "As businesses scale, CRM needs grow more sophisticated. Custom fields let teams capture industry-specific data, while analytics and reporting turn it into actionable insights.",
@@ -58,7 +58,7 @@ export default function KnowledgeBase() {
       ],
     },
     {
-      icon: <Briefcase className="text-[#D946EF]" size={32} />,
+      icon: <Briefcase className="text-[#e05d38]" size={32} />,
       title: "Use Cases & Real-World Applications",
       content: [
         "Small businesses use a CRM to stay organized and efficient, replacing spreadsheets with a centralized system for contacts and simple pipelines.",
@@ -67,7 +67,7 @@ export default function KnowledgeBase() {
       ],
     },
     {
-      icon: <Shield className="text-[#D946EF]" size={32} />,
+      icon: <Shield className="text-[#e05d38]" size={32} />,
       title: "Security & Best Practices",
       content: [
         "Protecting customer data is paramount. Security best practices in a CRM combine technical controls and user protocols to safeguard information. Role-Based Access Control (RBAC) ensures users can only access the data necessary for their role, reducing the risk of unauthorized access.",
@@ -76,7 +76,7 @@ export default function KnowledgeBase() {
       ],
     },
     {
-      icon: <CheckCircle className="text-[#D946EF]" size={32} />,
+      icon: <CheckCircle className="text-[#e05d38]" size={32} />,
       title: "Summary",
       content: [
         "Mastering a CRM requires continuous learning. By leveraging data management, automation, security, and analytics, teams can turn the CRM into a powerful growth tool.",
@@ -87,13 +87,13 @@ export default function KnowledgeBase() {
   ];
 
   return (
-    <div className="bg-[#111827] min-h-screen text-gray-300 font-sans">
+    <div className="bg-[#f3f4f6] min-h-screen text-[#333333] font-sans">
       <div className="max-w-7xl mx-auto px-6 py-20">
         <header className="mb-16 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-[#333333] mb-6">
             Knowledge Base
           </h1>
-          <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-[#6b7280] max-w-2xl mx-auto leading-relaxed">
             Learn how to maximize your CRM with expert articles, proven best
             practices, and practical use cases.
           </p>
@@ -103,19 +103,19 @@ export default function KnowledgeBase() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-[#1F2937] rounded-xl p-8 shadow-lg hover:shadow-[#D946EF]/10 hover:-translate-y-1 transition-all duration-300 border border-gray-800 hover:border-[#D946EF]/30 group"
+              className="bg-[#ffffff] rounded-xl p-8 shadow-lg hover:shadow-[#e05d38]/10 hover:-translate-y-1 transition-all duration-300 border border-[#dcdfe2] hover:border-[#e05d38]/30 group"
             >
-              <div className="mb-6 bg-gray-800/50 w-16 h-16 rounded-full flex items-center justify-center group-hover:bg-[#D946EF]/10 transition-colors">
+              <div className="mb-6 bg-[#e05d38]/10 w-16 h-16 rounded-full flex items-center justify-center group-hover:bg-[#e05d38]/10 transition-colors">
                 {card.icon}
               </div>
-              <h2 className="text-2xl font-bold text-white mb-4 group-hover:text-[#D946EF] transition-colors">
+              <h2 className="text-2xl font-bold text-[#333333] mb-4 group-hover:text-[#e05d38] transition-colors">
                 {card.title}
               </h2>
               <div className="space-y-4">
                 {card.content.map((paragraph, i) => (
                   <p
                     key={i}
-                    className="leading-relaxed text-gray-400 mb-4 last:mb-0"
+                    className="leading-relaxed text-[#6b7280] mb-4 last:mb-0"
                   >
                     {paragraph}
                   </p>
@@ -125,7 +125,7 @@ export default function KnowledgeBase() {
           ))}
         </div>
 
-        <footer className="mt-20 pt-10 border-t border-gray-800 text-center text-gray-500">
+        <footer className="mt-20 pt-10 border-t border-[#dcdfe2] text-center text-[#6b7280]">
           <p>
             © 2026 Reliosa CRM Platform Knowledge Base. All rights reserved.
           </p>
