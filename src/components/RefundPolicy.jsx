@@ -46,7 +46,7 @@ export default function RefundPolicy() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 2. REFUND ELIGIBILITY */}
         <div className="mb-12">
@@ -80,7 +80,7 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 3. REFUND TIMELINE */}
         <div className="mb-12">
@@ -137,7 +137,7 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 4. HOW TO REQUEST A REFUND */}
         <div className="mb-12">
@@ -194,7 +194,7 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-gray-200 my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 5. CANCELLATION POLICY */}
         <div className="mb-12">
@@ -232,7 +232,7 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 6. DATA HANDLING AFTER REFUND */}
         <div className="mb-12">
@@ -253,7 +253,7 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 7. PADDLE AS MERCHANT OF RECORD */}
         <div className="mb-12">
@@ -297,7 +297,7 @@ export default function RefundPolicy() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 8. CHARGEBACKS & DISPUTES */}
         <div className="mb-12">
@@ -325,7 +325,7 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 9. REGIONAL RIGHTS */}
         <div className="mb-12">
@@ -352,7 +352,7 @@ export default function RefundPolicy() {
           </ul>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 10. CHANGES TO THIS POLICY */}
         <div className="mb-12">
@@ -366,7 +366,7 @@ export default function RefundPolicy() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 11. CONTACT INFORMATION */}
         <div className="mb-12">
@@ -392,11 +392,11 @@ export default function RefundPolicy() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
       </section>
 
       {/* Footer Note */}
-      <div className="bg-[#ffffff] text-center py-6 px-6 border-t border-[#dcdfe2]">
+      <div className="bg-[#f3f4f6] text-center py-6 px-6 border-t border-gray-700">
         <p className="text-[#6b7280] font-medium">END OF REFUND POLICY</p>
         <p className="text-[#6b7280] text-sm mt-2">
           This Refund Policy is effective as of January 30, 2026. Your use of

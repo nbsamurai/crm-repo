@@ -106,7 +106,7 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 3. LICENSE AND ACCEPTABLE USE */}
         <div className="mb-12">
@@ -144,7 +144,7 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-[#333333] mb-4">
@@ -176,7 +176,7 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-[#333333] mb-4">
@@ -193,7 +193,7 @@ export default function TermsServices() {
           </ul>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 6. FEES, PAYMENTS, AND BILLING */}
         <div className="mb-12">
@@ -236,7 +236,7 @@ export default function TermsServices() {
           </ul>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 7. INTELLECTUAL PROPERTY */}
         <div className="mb-12">
@@ -254,7 +254,7 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 8. THIRD-PARTY SERVICES */}
         <div className="mb-12">
@@ -268,7 +268,7 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 9. SUSPENSION AND TERMINATION */}
         <div className="mb-12">
@@ -303,7 +303,7 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 10. DISCLAIMERS */}
         <div className="mb-12">
@@ -317,7 +317,7 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 11. LIMITATION OF LIABILITY */}
         <div className="mb-12">
@@ -334,7 +334,7 @@ export default function TermsServices() {
           </ul>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 12. INDEMNIFICATION */}
         <div className="mb-12">
@@ -347,7 +347,7 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 13. CHANGES TO THESE TERMS */}
         <div className="mb-12">
@@ -360,7 +360,7 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 14. GOVERNING LAW */}
         <div className="mb-12">
@@ -374,7 +374,7 @@ export default function TermsServices() {
           </p>
         </div>
 
-        <hr className="border-[#dcdfe2] my-8" />
+        <hr className="border-gray-700 my-8" />
 
         {/* 15. CONTACT */}
         <div className="mb-12">
@@ -405,7 +405,7 @@ export default function TermsServices() {
       </section>
 
       {/* Footer Note */}
-      <div className="bg-[#f3f4f6] text-center py-6 px-6 border-t border-[#dcdfe2]">
+      <div className="bg-[#f3f4f6] text-center py-6 px-6 border-t border-gray-700">
         <p className="text-[#6b7280] font-medium">END OF TERMS OF SERVICE</p>
         <p className="text-[#6b7280] text-sm mt-2">
           This Terms of Service is effective as of January 30, 2026. Your

@@ -421,8 +421,8 @@ export default function PrivacyPolicy() {
 
       {/* Footer Note */}
       <div className="bg-[#f3f4f6] text-center py-6 px-6 border-t border-gray-700">
-        <p className="text-gray-400 font-medium">END OF PRIVACY POLICY</p>
-        <p className="text-gray-400 text-sm mt-2">
+        <p className="text-[#6b7280] font-medium">END OF PRIVACY POLICY</p>
+        <p className="text-[#6b7280] text-sm mt-2">
           This Privacy Policy is effective as of January 30, 2026. If you have
           any questions, please contact us at support@reliosa.com.
         </p>
