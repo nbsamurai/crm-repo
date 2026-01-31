@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import CRM_business from "../assets/CRM_business.jpeg";
+import CRM_business from "../assets/crm_hero.png";
 import { useNavigate } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
@@ -8,7 +8,7 @@ export default function Hero() {
   const navigate = useNavigate();
 
   return (
-    <section className="bg-[#f3f4f6] px-6 py-16 md:py-24 overflow-hidden">
+    <section className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] px-6 py-16 md:py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <motion.div
