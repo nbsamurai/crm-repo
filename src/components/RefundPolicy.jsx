@@ -387,8 +387,8 @@ export default function RefundPolicy() {
           </p>
           <p className="mb-1">Phone: +91 89057 58042</p>
           <p className="mb-1">
-            Address: S/O Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera, Ajmer,
-            Rajasthan – 305401, India
+            Address: S/O: Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera,
+            Ajmer, Rajasthan – 305401, India
           </p>
         </div>
 

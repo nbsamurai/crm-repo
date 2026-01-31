@@ -50,8 +50,8 @@ export default function TermsServices() {
           </p>
           <p className="mb-1">Phone: +91 89057 58042</p>
           <p className="mb-2">
-            Address: S/O Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera, Ajmer,
-            Rajasthan – 305401, India
+            Address: S/O: Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera,
+            Ajmer, Rajasthan – 305401, India
           </p>
 
           <p>
@@ -397,7 +397,7 @@ export default function TermsServices() {
             </li>
             <li>Phone: +91 89057 58042</li>
             <li>
-              Address: S/O Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera,
+              Address: S/O: Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera,
               Ajmer, Rajasthan – 305401, India
             </li>
           </ul>

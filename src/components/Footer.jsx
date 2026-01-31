@@ -95,12 +95,13 @@ export default function Footer() {
             </li>
             <li>
               <span className="block text-[#393838]">Phone</span>
-              <a className="hover:text-[#e05d38]">+91 9251011591</a>
+              <a className="hover:text-[#e05d38]">+91 89057 58042</a>
             </li>
             <li>
               <span className="block text-[#393838]">ADDRESS</span>
               <a className="hover:text-[#e05d38]">
-                476/42 DHAN NADI VIJAY SINGH PATHIK NAGAR AJMER RAJASTHAN 305001
+                S/O: Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera, Ajmer,
+                Rajasthan – 305401, India
               </a>
             </li>
           </ul>

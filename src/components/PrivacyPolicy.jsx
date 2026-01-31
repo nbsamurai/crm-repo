@@ -412,7 +412,7 @@ export default function PrivacyPolicy() {
             <p className="mb-1">Email: support@reliosa.com</p>
             <p className="mb-1">Phone: +91 89057 58042</p>
             <p className="mb-1">
-              Address: S/O Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera,
+              Address: S/O: Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera,
               Ajmer, Rajasthan – 305401, India
             </p>
           </div>

@@ -56,30 +56,31 @@ export default function CustomerStories() {
         {/* Benefits Grid (from "With Reliosa you can") */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-24">
           <div className="bg-[#ffffff] p-6 rounded-xl shadow-md border-t-4 border-[#e05d38] text-center">
-            <TrendingUp className="mx-auto text-white mb-4" size={32} />
+            <TrendingUp className="mx-auto text-[#6b7280] mb-4" size={32} />
             <p className="font-semibold text-[#6b7280]">
-              Track leads and opportunities across the entire sales pipeline
+              Follow leads and opportunities through every stage of the sales
+              journey.
             </p>
           </div>
           <div className="bg-[#ffffff] p-6 rounded-xl shadow-md border-t-4 border-[#e05d38] text-center">
-            <MessageSquare className="mx-auto text-white mb-4" size={32} />
+            <MessageSquare className="mx-auto text-[#6b7280] mb-4" size={32} />
             <p className="font-semibold text-[#6b7280]">
-              Manage customer interactions in real-time, ensuring no opportunity
-              is missed
+              Stay on top of every customer interaction in real time so nothing
+              slips through the cracks.
             </p>
           </div>
           <div className="bg-[#ffffff] p-6 rounded-xl shadow-md border-t-4 border-[#e05d38] text-center">
-            <Zap className="mx-auto text-white mb-4" size={32} />
+            <Zap className="mx-auto text-[#6b7280] mb-4" size={32} />
             <p className="font-semibold text-[#6b7280]">
-              Automate follow-ups, tasks, and pipelines to keep your team
-              focused on what matters most
+              Let automation handle follow-ups and tasks so your team stays
+              focused on meaningful customer interactions.
             </p>
           </div>
           <div className="bg-[#ffffff] p-6 rounded-xl shadow-md border-t-4 border-[#e05d38] text-center">
-            <BarChart className="mx-auto text-white mb-4" size={32} />
+            <BarChart className="mx-auto text-[#6b7280] mb-4" size={32} />
             <p className="font-semibold text-[#6b7280]">
-              Gain visibility into performance with powerful analytics and
-              reporting to keep your team informed and aligned
+              Empower your team with real-time analytics and reporting that
+              drive clarity, alignment, and smarter decisions.
             </p>
           </div>
         </div>
@@ -97,12 +98,12 @@ export default function CustomerStories() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-[#333333] mb-2">
-                  Unified Customer Data
+                  Customer Intelligence
                 </h3>
                 <p className="text-[#6b7280]">
-                  Access a complete, 360° view of every customer—contacts,
-                  communication history, deals, and support tickets—all in one
-                  place, so you can see the big picture.
+                  See your sales pipeline clearly and stay in control with
+                  customizable stages, real-time tracking, and forecasting that
+                  keeps your team focused and your revenue predictable.
                 </p>
               </div>
             </div>
@@ -112,13 +113,12 @@ export default function CustomerStories() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-[#333333] mb-2">
-                  Sales Pipeline & Opportunities Management
+                  Pipeline Visibility & Deal Tracking
                 </h3>
                 <p className="text-[#6b7280]">
-                  Visualize and manage your sales pipeline and opportunities
-                  with customizable stages, deal tracking, and forecasting tools
-                  to keep revenue predictable and your team focused on what
-                  matters most.
+                  See your sales pipeline at a glance with customizable stages,
+                  real-time deal tracking, and reliable forecasting—helping your
+                  team focus, prioritize, and drive predictable revenue.
                 </p>
               </div>
             </div>
