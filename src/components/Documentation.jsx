@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import crm1 from "../assets/crm1.jpeg";
-import crm2 from "../assets/crm2.jpeg";
-import crm3 from "../assets/crm3.jpeg";
+import crm1 from "../assets/crm_hero.png";
+import crm2 from "../assets/crm_features1.png";
+import crm3 from "../assets/crm_features2.png";
 
 export default function Documentation() {
   return (
     <div className="font-sans text-[#333333] bg-[#f3f4f6] min-h-screen">
-      <div className="bg-[#f3f4f6] py-20 px-6 text-center shadow-md">
+      <div className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           CRM Product Documentation
         </h1>
@@ -20,7 +20,7 @@ export default function Documentation() {
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-12">
         {/* Sidebar Navigation */}
         <aside className="hidden md:block col-span-1 sticky top-24 h-fit">
-          <nav className="space-y-4 border-l-2 border-[#dcdfe2] pl-4">
+          <nav className="space-y-4 pl-4">
             <a
               href="#introduction"
               className="block text-[#6b7280] hover:text-[#e05d38] hover:border-l-2 hover:border-[#e05d38] -ml-[18px] pl-4 transition-all"
