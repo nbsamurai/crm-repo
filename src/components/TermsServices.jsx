@@ -26,7 +26,7 @@ export default function TermsServices() {
           </h2>
           <p className="mb-4">
             Reliosa ("Reliosa", "we", "us", "our") operates the software and
-            services made available at
+            services made available at{" "}
             <a
               href="https://www.reliosa.com"
               target="_blank"
@@ -389,10 +389,10 @@ export default function TermsServices() {
             <li>
               Email:{" "}
               <a
-                href="mailto:support@Reliosa.com"
+                href="mailto:support@reliosa.com"
                 className="text-[#e05d38] hover:underline"
               >
-                support@Reliosa.com
+                support@reliosa.com
               </a>
             </li>
             <li>Phone: +91 89057 58042</li>

@@ -87,10 +87,10 @@ export default function Footer() {
             <li>
               <span className="block text-[#393838]">Email</span>
               <a
-                href="mailto:support@Reliosa.com"
+                href="mailto:support@reliosa.com"
                 className="hover:text-[#e05d38]"
               >
-                support@Reliosa.com
+                support@reliosa.com
               </a>
             </li>
             <li>
