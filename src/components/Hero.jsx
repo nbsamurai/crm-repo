@@ -8,7 +8,7 @@ export default function Hero() {
   const navigate = useNavigate();
 
   return (
-    <section className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] px-6 py-16 md:py-24 overflow-hidden">
+    <section className="bg-linear-to-tr from-[#e0f7fa] via-[#f3e5f5] to-[#eddec3] px-6 py-16 md:py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <motion.div

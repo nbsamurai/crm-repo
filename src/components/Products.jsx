@@ -13,7 +13,7 @@ export default function Products() {
   return (
     <div className="bg-[#f3f4f6]">
       {/* Hero Section */}
-      <section className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] text-[#333333] py-20 px-6 text-center">
+      <section className="bg-linear-to-tr from-[#e0f7fa] via-[#f3e5f5] to-[#eddec3] text-[#333333] py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Operational CRM</h1>
         <p className="text-xl md:text-2xl text-[#333333] max-w-3xl mx-auto leading-relaxed">
           Customer Operations, Automated in One Platform

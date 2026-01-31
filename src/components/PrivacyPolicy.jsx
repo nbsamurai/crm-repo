@@ -4,7 +4,7 @@ export default function PrivacyPolicy() {
   return (
     <div className="bg-[#f3f4f6]">
       {/* Header Section */}
-      <section className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] text-[#333333] py-20 px-6 text-center">
+      <section className="bg-linear-to-tr from-[#e0f7fa] via-[#f3e5f5] to-[#eddec3] text-[#333333] py-20 px-6 text-center">
         <div className="flex justify-center mb-6">
           <div className="shadow-lg p-4 rounded-full">
             <Shield size={48} className="text-[#e05d38]" />

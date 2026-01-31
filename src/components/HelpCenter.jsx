@@ -16,7 +16,7 @@ export default function HelpCenter() {
   return (
     <div className="bg-[#f3f4f6]">
       {/* Hero Section */}
-      <section className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] text-[#333333] py-20 px-6 text-center">
+      <section className="bg-linear-to-tr from-[#e0f7fa] via-[#f3e5f5] to-[#eddec3] text-[#333333] py-20 px-6 text-center">
         <div className="flex justify-center mb-6">
           <div className="bg-[#ffffff] p-4 rounded-full">
             <BookOpen size={48} className="text-[#e05d38]" />

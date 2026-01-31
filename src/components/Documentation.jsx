@@ -8,7 +8,7 @@ import crm3 from "../assets/crm_features2.png";
 export default function Documentation() {
   return (
     <div className="font-sans text-[#333333] bg-[#f3f4f6] min-h-screen">
-      <div className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] py-20 px-6 text-center">
+      <div className="bg-linear-to-tr from-[#e0f7fa] via-[#f3e5f5] to-[#eddec3] py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           CRM Product Documentation
         </h1>
