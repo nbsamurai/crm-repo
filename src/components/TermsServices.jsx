@@ -13,7 +13,8 @@ export default function TermsServices() {
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Terms of Service
         </h1>
-        <p className="text-xl text-[#6b7280]">Last Updated: January 2, 2026</p>
+        <p className="text-[#6b7280] font-bold">Reliosa.com</p>
+        <p className="text-xl text-[#6b7280]">Last Updated: January 30, 2026</p>
       </section>
 
       {/* Main Content */}
@@ -24,29 +25,39 @@ export default function TermsServices() {
             1. WHO WE ARE
           </h2>
           <p className="mb-4">
-            Reliosa ("Reliosa", "we", "us", "our") operates the Service, which
-            is a cloud-based CRM platform available at Reliosa.com.
+            Reliosa ("Reliosa", "we", "us", "our") operates the software and
+            services made available at
+            <a
+              href="https://www.reliosa.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#e05d38] hover:underline"
+            >
+              https://www.reliosa.com
+            </a>{" "}
+            (the "Service").
           </p>
-          <p className="mb-2">Our contact details are:</p>
-          <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>
-              Email:{" "}
-              <a
-                href="mailto:admin@Reliosa.com"
-                className="text-[#e05d38] hover:underline"
-              >
-                admin@Reliosa.com
-              </a>
-            </li>
-            <li>
-              Address: 476/42 Dhan Nadi, Vijay Singh Pathik Nagar, Ajmer,
-              Rajasthan 305001, India
-            </li>
-          </ul>
+          <p className="mb-2 font-bold">Contact Details:</p>
+
+          <p className="mb-1">
+            Email:{" "}
+            <a
+              href="mailto:support@reliosa.com"
+              className="text-[#e05d38] hover:underline"
+            >
+              support@reliosa.com
+            </a>
+          </p>
+          <p className="mb-1">Phone: +91 89057 58042</p>
+          <p className="mb-2">
+            Address: S/O Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera, Ajmer,
+            Rajasthan – 305401, India
+          </p>
+
           <p>
-            For certain transactions, payments are processed by Paddle as our
-            Merchant of Record, as explained in section 6 (Fees, payments and
-            billing).
+            For certain transactions, payments are processed by{" "}
+            <strong>Paddle</strong>, which acts as our{" "}
+            <strong>Merchant of Record</strong>, as explained in Section 6.
           </p>
         </div>
 
@@ -59,11 +70,12 @@ export default function TermsServices() {
           </h2>
 
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            2.1 Business Use Only
+            2.1 Business Use
           </h3>
           <p className="mb-4">
-            The Service is intended for use by businesses, organizations, and
-            professionals, not for personal or household use.
+            The Service is intended for business and professional use only. By
+            using the Service, you confirm that you are acting on behalf of a
+            business or organization.
           </p>
 
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
@@ -71,12 +83,15 @@ export default function TermsServices() {
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
             <li>
-              You must provide accurate, current, and complete information when
-              creating an account and keep it up to date.
+              You must provide accurate, complete, and current information when
+              creating an account.
             </li>
             <li>
               You are responsible for maintaining the confidentiality of your
-              login credentials and for all activities that occur under your
+              login credentials.
+            </li>
+            <li>
+              You are responsible for all activity that occurs under your
               account.
             </li>
           </ul>
@@ -84,34 +99,28 @@ export default function TermsServices() {
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             2.3 Authorized Users
           </h3>
-          <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>
-              You may authorize individuals within your organization
-              ("Authorized Users") to access your workspace, subject to any seat
-              or usage limits in your subscription.
-            </li>
-            <li>
-              You are responsible for the actions of your Authorized Users and
-              for ensuring they comply with these Terms.
-            </li>
-          </ul>
+          <p className="mb-2">
+            You may allow employees or contractors ("Authorized Users") to
+            access your account. You are responsible for their compliance with
+            these Terms.
+          </p>
         </div>
 
         <hr className="border-[#dcdfe2] my-8" />
 
-        {/* 3. SERVICE LICENSE AND USE */}
+        {/* 3. LICENSE AND ACCEPTABLE USE */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-[#333333] mb-4">
-            3. SERVICE LICENSE AND USE
+            3. LICENSE AND ACCEPTABLE USE
           </h2>
 
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            3.1 License to Use the Service
+            3.1 License Grant
           </h3>
           <p className="mb-4">
-            Subject to your compliance with these Terms and timely payment of
-            all fees, Reliosa grants you a limited, non-exclusive,
-            non-transferable, non-sublicensable right to access and use the
+            Subject to your compliance with these Terms and payment of
+            applicable fees, Reliosa grants you a limited, non-exclusive,
+            non-transferable, non-sublicensable license to access and use the
             Service for your internal business purposes during the subscription
             term.
           </p>
@@ -122,118 +131,66 @@ export default function TermsServices() {
           <p className="mb-2">You must not:</p>
           <ul className="list-disc pl-6 mb-4 space-y-2">
             <li>
-              Use the Service in any way that violates applicable law,
-              regulations, or third-party rights.
+              Use the Service in violation of applicable laws or regulations
             </li>
-            <li>
-              Upload, store, or transmit any harmful code, malware, or content
-              that is unlawful, abusive, or infringing.
-            </li>
-            <li>
-              Attempt to reverse engineer, decompile, or extract source code
-              from the Service, except to the extent expressly permitted by law.
-            </li>
-            <li>
-              Circumvent usage limits, security features, or technical
-              protections in the Service.
-            </li>
-            <li>Use the Service to build a competing product or service.</li>
+            <li>Upload malware, unlawful, abusive, or infringing content</li>
+            <li>Reverse engineer, copy, or attempt to extract source code</li>
+            <li>Bypass security, usage limits, or access controls</li>
+            <li>Use the Service to build or support a competing product</li>
           </ul>
           <p>
-            Reliosa reserves the right to suspend or terminate access where
-            there is actual or suspected abuse, violation of these Terms, or
-            violation of Paddle's acceptable use requirements.
+            Reliosa may suspend or terminate access for violations of these
+            Terms or Paddle’s acceptable use requirements.
           </p>
         </div>
 
         <hr className="border-[#dcdfe2] my-8" />
 
-        {/* 4. YOUR DATA AND PRIVACY */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-[#333333] mb-4">
-            4. YOUR DATA AND PRIVACY
+            4. CUSTOMER DATA AND PRIVACY
           </h2>
-
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            4.1 Customer Data
+            4.1 Customer Data Ownership
           </h3>
           <p className="mb-4">
-            "Customer Data" means all data, content, and information that you or
-            your Authorized Users submit or store in the Service, including your
-            customer records, contacts, activities, and communications.
+            You retain ownership of all data submitted to the Service ("Customer
+            Data"). You are responsible for ensuring you have the legal right to
+            use and upload such data.
           </p>
-          <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>You retain ownership of Customer Data.</li>
-            <li>
-              You are responsible for ensuring that you have all necessary
-              rights and lawful bases to submit Customer Data to the Service and
-              to use it as configured in your account.
-            </li>
-          </ul>
-
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            4.2 License to Customer Data
+            4.2 License to Process Data
           </h3>
           <p className="mb-4">
-            You grant Reliosa a worldwide, limited, non-exclusive license to
-            host, use, process, transmit, and display Customer Data only as
-            necessary to provide, maintain, secure, and improve the Service and
+            You grant Reliosa a limited license to host, process, and use
+            Customer Data solely to provide, secure, and improve the Service and
             to comply with legal obligations.
           </p>
-
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             4.3 Data Protection
           </h3>
-          <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>
-              Reliosa processes personal data in accordance with the Reliosa
-              Privacy Policy, which forms part of these Terms.
-            </li>
-            <li>
-              Where required by law (for example, under GDPR or similar
-              frameworks), Reliosa may offer a separate data processing
-              agreement governing processing of personal data on your behalf.
-            </li>
-          </ul>
+          <p className="mb-4">
+            Personal data is processed in accordance with our{" "}
+            <strong>Privacy Policy</strong>. Where required by law, a Data
+            Processing Agreement (DPA) may be provided upon request.
+          </p>
         </div>
 
         <hr className="border-[#dcdfe2] my-8" />
 
-        {/* 5. SERVICE AVAILABILITY AND SUPPORT */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-[#333333] mb-4">
-            5. SERVICE AVAILABILITY AND SUPPORT
+            5. SERVICE AVAILABILITY AND MODIFICATIONS
           </h2>
 
-          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            5.1 Availability
-          </h3>
-          <p className="mb-4">
-            Reliosa aims to keep the Service available and operating reliably
-            but does not guarantee uninterrupted or error-free operation. The
-            Service may be temporarily unavailable due to scheduled maintenance,
-            emergency maintenance, or factors outside Reliosa's reasonable
-            control (for example, network or infrastructure provider issues).
-          </p>
-
-          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            5.2 Modifications to the Service
-          </h3>
-          <p className="mb-4">
-            Reliosa may improve, update, or modify the Service from time to
-            time, including adding or removing features. If Reliosa makes
-            changes that materially reduce core functionality, reasonable
-            efforts will be made to notify you in advance where practicable.
-          </p>
-
-          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            5.3 Support
-          </h3>
-          <p className="mb-4">
-            Reliosa may provide standard support via email or other channels as
-            specified on the website or in your plan. Any enhanced or premium
-            support offerings may be subject to additional terms and fees.
-          </p>
+          <ul className="list-disc pl-6 mb-4 space-y-2">
+            <li>The Service is provided on an "as available" basis.</li>
+            <li>We do not guarantee uninterrupted or error-free operation.</li>
+            <li>
+              We may modify, suspend, or discontinue features with reasonable
+              notice where practicable.
+            </li>
+          </ul>
         </div>
 
         <hr className="border-[#dcdfe2] my-8" />
@@ -245,89 +202,38 @@ export default function TermsServices() {
           </h2>
 
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            6.1 Subscriptions and Pricing
+            6.1 Subscriptions
           </h3>
-          <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>
-              Access to the Service is generally provided on a subscription
-              basis (for example, monthly or annually) as described on the
-              Reliosa website or in your order.
-            </li>
-            <li>
-              Reliosa may change prices and plan structures from time to time;
-              price changes will not apply to an existing paid term already
-              invoiced, but will apply upon renewal after notice.
-            </li>
-          </ul>
+          <p className="mb-4">
+            Access to the Service is provided on a subscription basis (monthly
+            or annual), as described on the website or checkout page.
+          </p>
 
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             6.2 Paddle as Merchant of Record
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
+            <li>Paddle acts as the Merchant of Record for most transactions</li>
             <li>
-              For many transactions, Paddle.com acts as the Merchant of Record
-              and authorized reseller of the Service.
+              Paddle processes payments, collects taxes, and issues invoices
             </li>
-            <li>
-              This means you purchase the subscription from Paddle, and Paddle
-              is responsible for processing your payment, collecting applicable
-              taxes, and issuing invoices, while Reliosa provides the Service
-              under these Terms (the "Supplier Agreement").
-            </li>
+            <li>Paddle’s Buyer Terms and Privacy Policy apply at checkout</li>
+            Paddle’s Buyer Terms and Privacy Policy apply at checkout
           </ul>
 
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            6.3 Payment Processing
+            6.3 Renewals and Cancellation
           </h3>
           <ul className="list-disc pl-6 mb-4 space-y-2">
+            <li>Subscriptions renew automatically unless cancelled</li>
             <li>
-              When you checkout, you may be redirected to a Paddle-hosted
-              payment page or embedded Paddle checkout governed by Paddle's own
-              buyer terms and privacy policy, available at{" "}
-              <a
-                href="https://paddle.com/legal"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[#e05d38] hover:underline"
-              >
-                paddle.com/legal
-              </a>
-              .
+              You may cancel at any time; cancellation stops future billing only
             </li>
             <li>
-              Payment methods, billing cycles, taxes, and invoicing are handled
-              by Paddle (or other designated payment providers) in accordance
-              with their terms.
+              Refunds are governed by our <strong>Refund Policy</strong> and
+              Paddle’s rules
             </li>
           </ul>
-
-          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            6.4 Renewals and Cancellation
-          </h3>
-          <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>
-              Unless otherwise stated, subscriptions automatically renew for
-              successive periods at the then-current price, using the payment
-              method on file.
-            </li>
-            <li>
-              You may cancel auto-renewal at any time via your account settings
-              or via the Paddle subscription management interface, but
-              cancellation will generally take effect at the end of the
-              then-current billing period and will not trigger a refund for
-              amounts already paid, unless required by law or by our refund
-              policy.
-            </li>
-          </ul>
-
-          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            6.5 Refunds
-          </h3>
-          <p className="mb-4">
-            Any refunds are subject to Reliosa's Refund Policy and, where Paddle
-            is Merchant of Record, may be processed by Paddle in accordance with
-            its rules.
-          </p>
         </div>
 
         <hr className="border-[#dcdfe2] my-8" />
@@ -338,25 +244,13 @@ export default function TermsServices() {
             7. INTELLECTUAL PROPERTY
           </h2>
 
-          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            7.1 Reliosa IP
-          </h3>
           <p className="mb-4">
-            The Service, including all software, technology, user interfaces,
-            design, and documentation, is owned or licensed by Reliosa and is
-            protected by intellectual property laws. Except for the limited
-            license expressly granted in section 3, no rights are granted to
-            you.
+            All intellectual property rights in the Service remain with Reliosa.
+            No rights are granted except as expressly stated in these Terms.
           </p>
-
-          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            7.2 Feedback
-          </h3>
           <p className="mb-4">
-            If you provide suggestions, ideas, or feedback about the Service
-            ("Feedback"), you grant Reliosa a perpetual, irrevocable, worldwide,
-            royalty-free license to use the Feedback without restriction or
-            compensation.
+            If you submit feedback or suggestions, you grant Reliosa a
+            royalty-free, perpetual license to use them without restriction.
           </p>
         </div>
 
@@ -368,11 +262,9 @@ export default function TermsServices() {
             8. THIRD-PARTY SERVICES
           </h2>
           <p className="mb-4">
-            The Service may integrate or interoperate with third-party products
-            or services (for example, email providers, analytics tools, or
-            payment processors). Use of such third-party services is subject to
-            their own terms, conditions, and privacy policies, and Reliosa is
-            not responsible for their actions or omissions.
+            The Service may integrate with third-party tools or services.
+            Reliosa is not responsible for third-party services, which are
+            governed by their own terms and policies.
           </p>
         </div>
 
@@ -387,61 +279,28 @@ export default function TermsServices() {
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
             9.1 Suspension
           </h3>
-          <p className="mb-2">
-            Reliosa may suspend access to the Service (in whole or in part)
-            immediately if:
-          </p>
+          <p className="mb-2">We may suspend access if:</p>
           <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>You fail to pay fees when due.</li>
-            <li>
-              Reliosa reasonably suspects fraudulent or abusive activity, or a
-              material breach of these Terms.
-            </li>
-            <li>
-              Suspension is necessary to comply with law or protect the security
-              or integrity of the Service.
-            </li>
+            <li>Fees are overdue</li>
+            <li>There is suspected fraud or abuse</li>
+            <li>Required by law or security reasons</li>
           </ul>
 
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            9.2 Termination by You
+            9.2 Termination
           </h3>
           <p className="mb-4">
-            You may stop using the Service at any time and may cancel your
-            subscription in accordance with section 6.4.
+            You may stop using the Service at any time. We may terminate access
+            for material breach or if the Service is discontinued.
           </p>
 
           <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            9.3 Termination by Reliosa
+            9.3 Effects of Termination
           </h3>
           <p className="mb-2">
-            Reliosa may terminate your account or access to the Service:
+            Upon termination, access ends and Customer Data may be deleted after
+            a reasonable retention period.
           </p>
-          <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>
-              For material breach of these Terms that remains uncured for 30
-              days after written notice, or immediately in the case of serious
-              or repeated violations.
-            </li>
-            <li>
-              If Reliosa decides to discontinue the Service, in which case
-              reasonable notice will be provided and any pre-paid fees for
-              unused periods may be refunded where applicable.
-            </li>
-          </ul>
-
-          <h3 className="text-xl font-bold text-[#333333] mb-2 mt-6">
-            9.4 Effects of Termination
-          </h3>
-          <p className="mb-2">Upon termination:</p>
-          <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>Your right to access the Service will cease.</li>
-            <li>You remain responsible for any outstanding fees.</li>
-            <li>
-              Reliosa may delete or anonymize Customer Data after a reasonable
-              retention period, unless required by law to keep it longer.
-            </li>
-          </ul>
         </div>
 
         <hr className="border-[#dcdfe2] my-8" />
@@ -452,14 +311,9 @@ export default function TermsServices() {
             10. DISCLAIMERS
           </h2>
           <p className="mb-4">
-            To the maximum extent permitted by law, the Service is provided "as
-            is" and "as available" without warranties of any kind, whether
-            express, implied, or statutory, including implied warranties of
-            merchantability, fitness for a particular purpose, and
-            non-infringement. Reliosa does not warrant that the Service will be
-            uninterrupted, error-free, or free of harmful components, or that
-            Customer Data will be secure or not otherwise lost or altered,
-            although reasonable measures are taken to protect it.
+            The Service is provided "as is" and "as available". To the maximum
+            extent permitted by law, we disclaim all warranties, express or
+            implied.
           </p>
         </div>
 
@@ -472,24 +326,12 @@ export default function TermsServices() {
           </h2>
           <p className="mb-2">To the maximum extent permitted by law:</p>
           <ul className="list-disc pl-6 mb-4 space-y-2">
+            <li>Reliosa is not liable for indirect or consequential damages</li>
             <li>
-              Reliosa will not be liable for any indirect, incidental, special,
-              consequential, or punitive damages, or loss of profits, revenue,
-              goodwill, or data arising out of or related to your use of the
-              Service, even if advised of the possibility of such damages.
-            </li>
-            <li>
-              Reliosa's aggregate liability for all claims arising out of or
-              relating to the Service or these Terms will not exceed the total
-              amount of fees paid by you for the Service during the twelve (12)
-              months preceding the event giving rise to the claim.
+              Total liability is limited to fees paid by you in the 12 months
+              preceding the claim
             </li>
           </ul>
-          <p className="mb-4">
-            Nothing in these Terms limits liability that cannot be limited under
-            applicable law (for example, liability for death or personal injury
-            caused by negligence, or for fraud).
-          </p>
         </div>
 
         <hr className="border-[#dcdfe2] my-8" />
@@ -500,22 +342,9 @@ export default function TermsServices() {
             12. INDEMNIFICATION
           </h2>
           <p className="mb-2">
-            You agree to indemnify and hold harmless Reliosa and its officers,
-            directors, employees, and agents from and against any claims,
-            damages, losses, liabilities, costs, and expenses (including
-            reasonable legal fees) arising out of or related to:
+            You agree to indemnify Reliosa against claims arising from your
+            misuse of the Service or violation of these Terms.
           </p>
-          <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>
-              Your use of the Service in violation of these Terms or applicable
-              law.
-            </li>
-            <li>
-              Customer Data, including any allegation that Customer Data
-              infringes or misappropriates a third party's rights or violates
-              applicable data protection laws.
-            </li>
-          </ul>
         </div>
 
         <hr className="border-[#dcdfe2] my-8" />
@@ -526,91 +355,50 @@ export default function TermsServices() {
             13. CHANGES TO THESE TERMS
           </h2>
           <p className="mb-4">
-            Reliosa may update these Terms from time to time. When changes are
-            material, reasonable efforts will be made to notify you (for
-            example, via email or in-app notification). Continued use of the
-            Service after the effective date of updated Terms constitutes your
-            acceptance of the changes.
-          </p>
-          <p className="mb-4">
-            If you do not agree to the updated Terms, you must stop using the
-            Service and cancel any active subscription.
+            We may update these Terms from time to time. Continued use of the
+            Service after changes take effect constitutes acceptance.
           </p>
         </div>
 
         <hr className="border-[#dcdfe2] my-8" />
 
-        {/* 14. GOVERNING LAW AND DISPUTES */}
+        {/* 14. GOVERNING LAW */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-[#333333] mb-4">
-            14. GOVERNING LAW AND DISPUTES
+            14. GOVERNING LAW
           </h2>
           <p className="mb-4">
-            Unless prohibited by applicable law, these Terms are governed by the
-            laws of India without regard to its conflict of laws rules.
-          </p>
-          <p className="mb-4">
-            Any dispute arising out of or in connection with these Terms or the
-            Service will be subject to the exclusive jurisdiction of the courts
-            of Rajasthan, India, except where mandatory law provides otherwise.
+            These Terms are governed by the laws of India. Courts located in
+            India shall have exclusive jurisdiction, unless otherwise required
+            by applicable law.
           </p>
         </div>
 
         <hr className="border-[#dcdfe2] my-8" />
 
-        {/* 15. MISCELLANEOUS */}
+        {/* 15. CONTACT */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-[#333333] mb-4">
-            15. MISCELLANEOUS
-          </h2>
-          <ul className="list-disc pl-6 mb-4 space-y-2">
-            <li>
-              <strong>Entire Agreement:</strong> These Terms, together with any
-              order or plan details and the Privacy Policy and Refund Policy,
-              form the entire agreement between you and Reliosa regarding the
-              Service.
-            </li>
-            <li>
-              <strong>Severability:</strong> If any provision is held invalid or
-              unenforceable, the remaining provisions will remain in full force.
-            </li>
-            <li>
-              <strong>No Waiver:</strong> A failure to enforce any right or
-              provision is not a waiver of that right or provision.
-            </li>
-            <li>
-              <strong>Assignment:</strong> You may not assign or transfer your
-              rights or obligations under these Terms without Reliosa's prior
-              written consent. Reliosa may assign these Terms in connection with
-              a merger, acquisition, or sale of assets, or by operation of law.
-            </li>
-          </ul>
-        </div>
-
-        <hr className="border-[#dcdfe2] my-8" />
-
-        {/* 16. CONTACT */}
-        <div className="mb-12">
-          <h2 className="text-2xl font-bold text-[#333333] mb-4">
-            16. CONTACT
+            15. CONTACT
           </h2>
           <p className="mb-2">
-            If you have any questions about these Terms, please contact:
+            If you have any questions about these Terms, contact:
           </p>
           <p className="mb-2 font-bold">Reliosa</p>
           <ul className="list-none mb-4 space-y-1">
             <li>
               Email:{" "}
               <a
-                href="mailto:admin@Reliosa.com"
+                href="mailto:support@Reliosa.com"
                 className="text-[#e05d38] hover:underline"
               >
-                admin@Reliosa.com
+                support@Reliosa.com
               </a>
             </li>
+            <li>Phone: +91 89057 58042</li>
             <li>
-              Address: 476/42 Dhan Nadi, Vijay Singh Pathik Nagar, Ajmer,
-              Rajasthan 305001, India
+              Address: S/O Ravindra Gurjar, Balwanta, Rajosi, Bhwani Khera,
+              Ajmer, Rajasthan – 305401, India
             </li>
           </ul>
         </div>
@@ -620,7 +408,7 @@ export default function TermsServices() {
       <div className="bg-[#f3f4f6] text-center py-6 px-6 border-t border-[#dcdfe2]">
         <p className="text-[#6b7280] font-medium">END OF TERMS OF SERVICE</p>
         <p className="text-[#6b7280] text-sm mt-2">
-          This Terms of Service is effective as of January 2, 2026. Your
+          This Terms of Service is effective as of January 30, 2026. Your
           continued use of Reliosa constitutes acceptance of these Terms.
         </p>
       </div>
