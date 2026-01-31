@@ -47,7 +47,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-bold text-[#333333]">Email</p>
-                  <p className="text-[#6b7280]">support@Reliosa.com</p>
+                  <p className="text-[#6b7280]">support@reliosa.com</p>
                 </div>
               </div>
 
