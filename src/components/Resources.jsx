@@ -12,7 +12,7 @@ export default function Resources() {
   return (
     <div className="bg-[#f3f4f6]">
       {/* Hero Section */}
-      <section className="bg-[#f3f4f6] text-[#333333] py-20 px-6 text-center">
+      <section className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] text-[#333333] py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
           CRM Software Resources
         </h1>

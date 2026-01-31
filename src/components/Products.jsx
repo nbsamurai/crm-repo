@@ -13,32 +13,35 @@ export default function Products() {
   return (
     <div className="bg-[#f3f4f6]">
       {/* Hero Section */}
-      <section className="bg-[#f3f4f6] text-[#333333] py-20 px-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6">Sales CRM</h1>
+      <section className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] text-[#333333] py-20 px-6 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6">Operational CRM</h1>
         <p className="text-xl md:text-2xl text-[#333333] max-w-3xl mx-auto leading-relaxed">
-          Modern Sales, Simplified in One Platform
+          Customer Operations, Automated in One Platform
         </p>
       </section>
-
       {/* Overview Section */}
       <section className="py-16 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-[#333333] mb-6">Overview</h2>
           <p className="text-lg text-[#333333] max-w-4xl mx-auto leading-relaxed">
-            The Sales CRM is a cloud-based platform built to help modern sales
-            teams close deals faster and smarter. Track leads, manage
-            opportunities, and gain actionable insights—all from a single,
-            centralized system that keeps your team aligned and your pipeline
-            visible. By automating routine tasks and providing real-time data,
-            it empowers teams to focus on what matters most: driving revenue.
+            Reliosa is a cloud-based Operational CRM designed to simplify
+            day-to-day customer interactions across sales, marketing, and
+            support. From managing leads and automating email campaigns to
+            resolving customer tickets, Reliosa centralizes your entire customer
+            lifecycle in one seamless platform. By automating routine tasks and
+            providing real-time visibility into customer activities, it helps
+            teams stay aligned, respond faster, and deliver consistent
+            experiences that strengthen customer relationships.
           </p>
           <p className="text-lg text-[#333333] max-w-4xl mx-auto leading-relaxed mt-4">
-            Designed for scalability and ease of use, the CRM enables businesses
-            of all sizes to streamline sales operations and maintain consistent
-            engagement with customers. With intuitive dashboards, reporting, and
-            collaboration tools, it transforms the way teams manage
-            relationships, make data-driven decisions, and achieve predictable
-            growth.
+            Built for teams of all sizes, Reliosa scales effortlessly as your
+            business grows while remaining intuitive and easy to use. With smart
+            workflows, collaborative tools, and insightful dashboards, it
+            streamlines operations and enables data-driven decision-making.
+            Whether it's optimizing pipelines, improving support efficiency, or
+            enhancing customer engagement, Reliosa transforms everyday processes
+            into smooth, automated workflows—driving productivity, consistency,
+            and long-term growth.
           </p>
         </div>
 

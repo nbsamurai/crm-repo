@@ -16,18 +16,18 @@ export default function HelpCenter() {
   return (
     <div className="bg-[#f3f4f6]">
       {/* Hero Section */}
-      <section className="bg-[#f3f4f6] text-[#333333] py-20 px-6 text-center">
+      <section className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] text-[#333333] py-20 px-6 text-center">
         <div className="flex justify-center mb-6">
           <div className="bg-[#ffffff] p-4 rounded-full">
             <BookOpen size={48} className="text-[#e05d38]" />
           </div>
         </div>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-          Reliosa Sales CRM Help Center
+          Reliosa Operational CRM Help Center
         </h1>
         <p className="text-xl md:text-2xl text-[#6b7280] max-w-3xl mx-auto leading-relaxed mb-10">
-          Welcome to the Reliosa Sales CRM Help Center. This guide helps you
-          quickly understand and use the core CRM features to manage leads,
+          Welcome to the Reliosa Operational CRM Help Center. This guide helps
+          you quickly understand and use the core CRM features to manage leads,
           track deals, and improve sales performance with confidence.
         </p>
 
@@ -60,9 +60,9 @@ export default function HelpCenter() {
               Getting Started
             </h2>
             <p className="text-[#6b7280] mb-4 leading-relaxed">
-              The Sales CRM enables sales teams to organize leads, track deals
-              through every stage, automate follow-ups, and gain clear insights
-              into sales performance from one centralized platform.
+              The Operational CRM enables sales teams to organize leads, track
+              deals through every stage, automate follow-ups, and gain clear
+              insights into sales performance from one centralized platform.
             </p>
             <p className="text-[#6b7280] font-medium bg-[#ffffff] p-3 rounded border border-[#dcdfe2] text-sm">
               Log in using your registered email and password. Use{" "}
@@ -236,8 +236,8 @@ export default function HelpCenter() {
         {/* Footer Note */}
         <div className="text-center mt-12 pt-12 border-t border-[#dcdfe2]">
           <p className="text-[#6b7280] italic">
-            This Help Center is your quick reference for using the Reliosa Sales
-            CRM efficiently.
+            This Help Center is your quick reference for using the Reliosa
+            Operational CRM efficiently.
           </p>
         </div>
       </section>

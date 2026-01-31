@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="bg-[#f3f4f6]">
       {/* Hero Section */}
-      <section className="bg-[#f3f4f6] text-[#333333] py-20 px-6 text-center">
+      <section className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] text-[#333333] py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
         <p className="text-xl md:text-2xl text-[#6b7280] max-w-2xl mx-auto">
           Whether you have a question, need support, or want to learn how our

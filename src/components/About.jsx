@@ -12,7 +12,7 @@ export default function About() {
   return (
     <div className="bg-[#f3f4f6]">
       {/* Hero / About Us */}
-      <section className="bg-[#f3f4f6] text-[#333333] py-20 px-6 text-center">
+      <section className=" bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] text-[#333333] py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-6">About Reliosa</h1>
         <p className="text-xl md:text-2xl text-[#6b7280] max-w-3xl mx-auto leading-relaxed">
           Reliosa is a modern CRM platform that helps businesses streamline

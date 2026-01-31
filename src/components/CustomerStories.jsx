@@ -17,7 +17,7 @@ export default function CustomerStories() {
   return (
     <div className="bg-[#f3f4f6]">
       {/* Hero Section */}
-      <section className="bg-[#f3f4f6] text-[#333333] py-20 px-6 text-center">
+      <section className="bg-linear-to-br from-[#e0f7fa] via-[#f3e5f5] to-[#fff8e1] text-[#333333] py-20 px-6 text-center">
         <div className="inline-flex items-center gap-2 bg-[#e05d38]/20 px-4 py-1 rounded-full text-[#e05d38] text-sm font-semibold mb-6">
           <Star size={16} fill="currentColor" /> Customer Success Stories
         </div>
