@@ -38,11 +38,11 @@ export default function About() {
           <div className="bg-[#ffffff] p-8 rounded-xl border-l-4 border-[#e05d38] text-left mt-8">
             <p className="italic text-[#6b7280]">
               "Founded by{" "}
-              <span className="font-bold text-[#e05d38]">Tushar</span>, Reliosa
-              delivers a SaaS-first CRM that’s intuitive, powerful, and built
-              for modern teams. With a focus on scalability and customer value,
-              Reliosa creates solutions that help businesses succeed today—and
-              tomorrow."
+              <span className="font-bold text-[#e05d38]">Pintu Poswal</span>,
+              Reliosa delivers a SaaS-first Operational CRM that’s intuitive,
+              powerful, and built for modern teams. With a focus on scalability
+              and customer value, Reliosa creates solutions that help businesses
+              succeed today and tomorrow."
             </p>
           </div>
         </div>

@@ -1,24 +1,25 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
-import crm1 from "../assets/crm1.jpeg";
-import crm2 from "../assets/crm2.jpeg";
-import crm3 from "../assets/crm3.jpeg";
+import crm1 from "../assets/crm_hero.png";
+import crm2 from "../assets/crm_features1.png";
+import crm3 from "../assets/crm_features2.png";
 
 const features = [
   {
     image: crm1,
-    title: "Visual Pipeline",
-    description: "See every deal clearly and act on every opportunity.",
+    title: "Sales Automation",
+    description: "Automate your sales process to close deals faster.",
   },
   {
     image: crm2,
-    title: "Advanced Analytics",
-    description: "Make smarter decisions with real-time sales insights.",
+    title: "Marketing Automation",
+    description:
+      "Empower your marketing team with tools that drive engagement and growth.",
   },
   {
     image: crm3,
-    title: "Seamless Automation",
-    description: "Automation that frees your team to close faster.",
+    title: "Customer Support",
+    description: "Deliver fast, reliable support that keeps customers happy.",
   },
 ];
 

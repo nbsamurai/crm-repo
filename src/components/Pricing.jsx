@@ -82,8 +82,9 @@ export default function Pricing() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-[#6b7280] max-w-2xl mx-auto text-lg"
           >
-            Whether you’re organizing work, managing tasks, or improving team
-            productivity, Reliosa has a plan for every workflow.
+            Whether you're managing customers, automating workflows, or
+            streamlining daily operations, Reliosa has a plan for every
+            workflow.
           </motion.p>
         </div>
 

@@ -14,7 +14,7 @@ export default function Footer() {
           </Link>
           {/* <h1 className="text-3xl font-bold">Reliosa</h1> */}
           <p className="text-[#6b7280] leading-relaxed text-sm mt-4">
-            Built for teams that sell smarter and grow faster.
+            Built for teams that streamline operations and deliver excellence.
           </p>
         </div>
 
