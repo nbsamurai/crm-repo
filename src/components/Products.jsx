@@ -260,7 +260,7 @@ export default function Products() {
         {/* Benefits Section */}
         <div className="bg-white text-[#333333] rounded-2xl p-10 md:p-16 mb-20 shadow-xl border border-[#dcdfe2]">
           <h2 className="text-3xl font-bold mb-10 text-center">
-            Benefits of a SaaS Sales CRM
+            Benefits of a SaaS Operational CRM
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="flex gap-4 items-start">
@@ -316,12 +316,15 @@ export default function Products() {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-[#333333] mb-6">Conclusion</h2>
           <p className="text-lg text-[#333333] leading-relaxed">
-            The Sales CRM helps teams capture leads, nurture relationships, and
-            close deals faster by centralizing customer data, automating routine
-            tasks, and providing real-time insights. Designed for modern
-            businesses, it streamlines workflows, improves collaboration, and
-            gives full visibility into the sales pipeline, empowering teams to
-            make smarter decisions and drive sustainable revenue growth.
+            The Operational CRM helps teams manage customer interactions,
+            streamline operations, and deliver exceptional experiences by
+            centralizing data, automating everyday tasks, and offering real-time
+            visibility across sales, marketing, and support. Built for modern,
+            fast-moving businesses, it simplifies workflows, enhances
+            collaboration, and ensures every team stays aligned around the
+            customer. With powerful automation and actionable insights, Reliosa
+            empowers organizations to operate more efficiently, respond faster,
+            and build long-term, profitable customer relationships.
           </p>
         </div>
       </section>
