@@ -2,11 +2,13 @@ import { CheckCircle } from "lucide-react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { usePaddle } from "../hooks/usePaddle";
 
 const plans = [
   {
     name: "Basic",
     price: "$199",
+    priceId: "pri_01kjf05ez9dyge77avgqaj1yg3",
     description: "Your ideas, always within reach.",
     features: [
       "Sync unlimited devices",
@@ -20,6 +22,7 @@ const plans = [
   {
     name: "Standard",
     price: "$499",
+    priceId: "pri_01kjf069yn1j9x40xt6g3jtr68",
     description: "The perfect balance of power and simplicity.",
     isPopular: true,
     features: [
@@ -34,6 +37,7 @@ const plans = [
   {
     name: "Organization",
     price: "$999",
+    priceId: "pri_01kjf074s9hdd6wddtb7sgbjfh",
     description: "Gain clear insights into sales performance.",
     features: [
       "Sync unlimited devices",
@@ -47,6 +51,7 @@ const plans = [
 ];
 
 export default function Pricing() {
+  const { isReady, openCheckout } = usePaddle();
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -137,16 +142,19 @@ export default function Pricing() {
                 ))}
               </ul>
 
-              <Link
-                to={`/apply/${plan.name}`}
-                className={`w-full py-3 rounded-lg font-bold transition-colors inline-block text-center ${
+              <button
+                onClick={() =>
+                  openCheckout([{ priceId: plan.priceId, quantity: 1 }])
+                }
+                disabled={!isReady}
+                className={`w-full py-3 rounded-lg font-bold transition-colors inline-block text-center cursor-pointer ${
                   plan.isPopular
                     ? "bg-[#e05d38] text-white hover:bg-[#e05d38e1]"
                     : "border border-[#dcdfe2] text-[#333333] hover:bg-[#e05d38e1] hover:text-[#ffffff]"
                 }`}
               >
-                Get Started
-              </Link>
+                {isReady ? "Get Started" : "Loading..."}
+              </button>
             </motion.div>
           ))}
         </motion.div>
